@@ -1,0 +1,175 @@
+/* --- ГЛАВНЫЙ HEADER (Базовое состояние) --- */
+.header
+{
+    width: 100%; /* Заменили на 100% для точности */
+    min-height: 80px;
+    border: 0px solid black;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #F7F4EE;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    z-index: 1000; /* Чтобы шапка всегда была поверх картинок */
+    transition: all 0.4s ease-in-out; /* Перенесли сюда для плавности в обе стороны! */
+}
+
+/* --- АКТИВНЫЙ HEADER (При скролле) --- */
+/* Соединили .header.header_active без пробела */
+
+/* --- ЛОГОТИП --- */
+.logo_div
+{
+    min-width: 17%;
+    border:0px solid black;
+    padding-left: 30px;
+    display: flex;
+}
+.logo
+{
+    max-width: 65px;
+    height: auto; /* Позволяет картинке не искажаться */
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* --- НАВИГАЦИЯ (МЕНЮ) --- */
+.navbar_div
+{
+    min-width: 40%;
+    border: 0px solid black;
+    display: flex;
+    align-items: center; /* Центрируем меню вместо padding-top */
+}
+.my-navbar
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Чтобы ссылки равномерно распределились */
+    padding: 0;
+    margin: 0;
+}
+.my-navbar_li
+{
+    list-style-type: none;
+}
+.my-navbar_a
+{
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 14px;
+    position: relative;
+    font-weight: 450;
+    color: #6B6560;
+
+}
+.my-navbar_a:hover
+{
+    color: black;
+}
+.my-navbar_a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 20px; /* Опускаем на самый низ элемента */
+    width: 0; /* 👈 Изначально ширина равна 0, поэтому линии не видно */
+    height: 2px; /* Толщина зеленой полоски */
+    background-color: #4A9B3F; /* Твой зеленый цвет с макета */
+
+    /* Эффект анимации: следим за изменением ширины в течение 0.3 секунд */
+    transition: width 0.3s ease-in-out;
+}
+
+/* 3. ЭФФЕКТ ХОВЕРА: при наведении увеличиваем ширину до 100% */
+.my-navbar_a:hover::after {
+    width: 100%; /* 👈 Линия плавно выезжает слева направо */
+}
+
+/* --- ЛИЧНЫЙ КАБИНЕТ (ПАСПОРТ) --- */
+.passport_div
+{
+    min-width: 7%;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+}
+.user
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1.4px solid #D9D8D4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    color: black;
+}
+
+.user:hover
+{
+    color: #4A9B3F;
+    border: 1.4px solid #4A9B3F;
+}
+.fa-user
+{
+    font-size: 15.5px;
+}
+
+/* --- ТЕЛЕФОН --- */
+.number_div
+{
+    min-width: 16%;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.number
+{
+    color: #4A9B3F;
+    cursor: pointer;
+    font-size: 16.5px;
+    text-decoration: none; /* Убирает подчеркивание, так как это тег <a> */
+    transition: color 0.3s ease;
+}
+
+/* --- КНОПКА ЗАКАЗА --- */
+.chosse_proect_div
+{
+    min-width: 15.4%;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+}
+.chosse_proect
+{
+    min-width: 160px;
+    min-height: 40px;
+    border: 0px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #50A845;
+    color: white;
+    font-size: 15.5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; /* Перенесли из hover сюда для плавного возврата */
+}
+.chosse_proect:hover
+{
+    background-color: #428B39;
+    transform: translateY(-2px); /* Вместо margin-top лучше использовать transform для плавной анимации */
+}
+
+.number.number_active
+{
+    color: black;
+}
+

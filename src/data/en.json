@@ -1,0 +1,40 @@
+
+{
+  "catalog": {
+    "common": {
+      "tooltip": "Price for a warm contour including delivery and installation. Calculated individually.",
+      "moredetails": "View details",
+      "meters": "sqm",
+      "floor": "floor"
+    },
+    "spec": {
+      "bedroom1": "1 bedroom",
+      "bedrooms3": "3 bedrooms",
+      "banya": "Sauna / Bathhouse"
+    },
+    "dugnad": {
+      "name": "Dugnad",
+      "intro": "Spacious laft house with 3 bedrooms and a large terrace."
+    },
+    "loen": {
+      "name": "Loen",
+      "intro": "Laft house with 3 bedrooms, 2 bathrooms and expressive Scandinavian architecture."
+    },
+    "gausdal": {
+      "name": "Gausdal",
+      "intro": "One-story laft house with 3 bedrooms, a large kitchen-living room with panoramic..."
+    },
+    "fitjar": {
+      "name": "Fitjar",
+      "intro": "Guest laft house with a bedroom, kitchen-living room and a terrace."
+    },
+    "surnadal": {
+      "name": "Surnadal",
+      "intro": "Laft sauna complex with a steam room, lounge area, relaxation room and a terrace."
+    },
+    "granvin": {
+      "name": "Granvin",
+      "intro": "One-story laft house with 3 bedrooms, master suite and a large living room."
+    }
+  }
+}

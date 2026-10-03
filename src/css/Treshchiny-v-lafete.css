@@ -1,0 +1,164 @@
+.Part1
+{
+    width: 100%;
+    height: auto;
+    border:0px solid black;
+}
+.All_stati
+{
+    width: 100%;
+    height: 200px;
+    border:0px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+     padding-left: 30px;
+    padding-bottom:50px ;
+
+}
+.li
+{
+    list-style-type: none;
+}
+.left-long
+{
+    color:#4A9B3F;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    gap: 10px;
+    transition: 0.3s;
+    font-weight: 550;
+
+}
+.left-long:hover
+{
+    color:#32692B;
+    margin-top: -1px;
+    transition: 0.3s;
+}
+.Part2
+{
+    width: 100%;
+    height: 400px;
+    border:0px solid black;
+    display: flex;
+}
+.Part2_part1
+{
+    width: 50%;
+    height: 400px;
+    border:0px solid black;
+    padding-left: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+.Part2_part2
+{
+    width: 50%;
+    height: 400px;
+    border:0px solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 10px;
+    padding-left: 25px;
+
+}
+.blog1
+{
+    width: 99%;
+    height: 310px;
+    border:0px solid black;
+    border-radius: 20px;
+}
+.dates_div
+{
+    font-family: 'Outfit', 'Inter', sans-serif;
+    color: black;
+    font-size: 14px;
+}
+.titles_div
+{
+    font-family: 'Outfit', 'Inter', sans-serif;
+    color: black;
+    font-size: 37px;
+    max-width: 600px;
+    font-weight: 850;
+    line-height: 40px;
+}
+.descriptions_div
+{
+    font-family: 'Outfit', 'Inter', sans-serif;
+    color: black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 18.5px;
+    line-height: 20px;
+}
+.why_in_lift
+{
+    color: #464644;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+
+}
+.Part3
+{
+    width: 56%;
+    margin: auto;
+    height: auto;
+    border:0px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding-bottom:90px;
+}
+.text_light
+{
+    font-family: 'Outfit', 'Inter', sans-serif;
+    color: #181816;
+    font-size: 17.5px;
+    line-height: 26px;
+
+}
+.text_light1
+{
+    font-family: 'Outfit', 'Inter', sans-serif;
+    color: #181816;
+    font-size: 17.5px;
+    line-height: 36px;
+    margin-left:20px ;
+
+}
+.bold_text
+{
+    font-family: 'Outfit', 'Inter', sans-serif;
+    color: #181816;
+    font-size: 27px;
+    line-height: 26px;
+    font-weight: 650;
+    margin-top: 20px;
+}
+.bold_text2
+{
+    font-family: 'Outfit', 'Inter', sans-serif;
+    color: #181816;
+    font-size: 30px;
+    line-height: 26px;
+    font-weight: 650;
+    margin-top: 20px;
+}
+.line
+{
+    width: 98%;
+    height:1.5px;
+    border:0px solid black;
+    background-color:#F1F1EE;
+}

@@ -1,0 +1,214 @@
+.slider-wrapper1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    border:0px solid red;
+    justify-content: center;
+}
+.displayq {
+    width: 100%;
+    height: 500px;
+    border: 0px solid red;
+    position: relative;
+}
+.slider_total {
+    width: 580px;
+    height: 420px;
+    border-radius: 10px;
+    overflow: hidden;
+    outline: none;
+    display: flex !important;
+    border: 0px solid green;
+    justify-content: center;
+
+}
+.images_slide {
+    width: 580px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.my-custom-black-bar {
+    width: 580px; /* Точно совпадает с шириной слайдера (580px) */
+    background-color: black; /* Полупрозрачный черный фон */
+    backdrop-filter: blur(8px);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; /* Отступы между картинками */
+    margin-top: 15px; /* Отодвигаем плашку чуть ниже слайдера */
+    box-sizing: border-box;
+}
+.thumb-item {
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.thumb-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5; /* По умолчанию картинки полупрозрачные */
+    transition: all 0.2s ease;
+    border:2px solid transparent;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.thumb-item:hover img {
+    opacity: 0.8;
+}
+.thumb-item.active img {
+    opacity: 1;
+    border: 2px solid white;
+}
+.custom-play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2px;
+}
+.displayq .slick-prev,
+.displayq .slick-next {
+    width: 47px !important;
+    height: 47px !important;
+    border-radius: 50% !important;
+    background-color: rgba(60,60,62, 0.6) !important; /* Легкий полупрозрачный фон */
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(6px); /* Тот самый красивый блюр */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 99;
+    top: 42% !important; /* Выравниваем ровно по центру картинки (420px), а не всего блока (500px) */
+    transition: background-color 0.3s ease;
+}
+.displayq .slick-prev:hover,
+.displayq .slick-next:hover {
+    background-color: rgba(63, 63, 63, 0.95) !important;
+}
+.displayq .slick-prev {
+    left: 20px !important;
+}
+.displayq .slick-next {
+    right: 20px !important;
+}
+.displayq .slick-prev:before,
+.displayq .slick-next:before {
+    font-family: inherit !important;
+    background-color: transparent !important;
+    backdrop-filter: none !important;
+    width: auto !important;
+    height: auto !important;
+    color: #ffffff !important;
+    font-size: 28px !important; /* Крупный размер */
+    font-weight: 300 !important; /* Тонкое начертание */
+    line-height: 1 !important;
+    opacity: 1 !important;
+    display: block !important;
+}
+.displayq .slick-prev:before {
+    content: "‹" !important;
+    margin-right: 2px;
+    margin-top: -4px;
+}
+.displayq .slick-next:before {
+    content: "›" !important;
+    margin-left: 2px;
+    margin-top: -4px;
+}
+.displayq .slick-prev,
+.displayq .slick-next {
+    width: 47px !important;
+    height: 47px !important;
+    border-radius: 50% !important;
+    background-color: rgba(29,29,30, 0.95);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(6px);
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 99;
+    top: 210px !important;
+    transform: translateY(-50%) !important; /* Центрируем относительно собственной высоты кнопки */
+    transition: background-color 0.3s ease;
+}
+.displayq .slick-prev:hover,
+.displayq .slick-next:hover {
+    background-color: rgba(29,29,30, 0.95) !important;
+}
+.displayq .slick-prev {
+    left: 20px !important;
+}
+.displayq .slick-next {
+    right: 20px !important;
+}
+.displayq .slick-prev:before,
+.displayq .slick-next:before {
+    font-family: inherit !important;
+    background-color: transparent !important;
+    backdrop-filter: none !important;
+    width: auto !important;
+    height: auto !important;
+    color: white !important;
+    font-size: 30px !important;
+    font-weight: 300 !important;
+    line-height: 1 !important;
+    opacity: 1 !important;
+    display: block !important;
+}
+.displayq .slick-prev:before {
+    content: "‹" !important;
+    margin-right: 2px;
+    margin-top: -4px;
+}
+.displayq .slick-next:before {
+    content: "›" !important;
+    margin-left: 2px;
+    margin-top: -4px;
+}
+.slider-header {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center; /* Կենտրոնացնում է հաշվիչը */
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 100;
+}
+.curent_number_of_images
+{
+    width: 70px;
+    height: 30px;
+    border: 0px solid white;
+    border-radius: 3px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 17px;
+}
+/* Перебиваем скролл для всей страницы, пока открыт слайдер */
+:has(.slider-wrapper1) {
+    overflow: hidden !important;
+}
