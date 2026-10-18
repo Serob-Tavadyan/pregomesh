@@ -4,9 +4,12 @@ import Menue1 from "./Menue1";
 import Footer from "./Footer";
 import Menue from "./Menue";
 import {Link} from "react-router-dom";
+import Choose from "./Chooseproect";
+import { useModalStore } from '../useModalStore';
 function TreshchinyVLafete(props) {
     return (
         <div>
+            <Choose/>
             <div className={"Part1"}>
                 <Menue1/>
                 <div className={"All_stati"}>

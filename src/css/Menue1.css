@@ -1,21 +1,24 @@
-/* --- ГЛАВНЫЙ HEADER (Базовое состояние) --- */
-.header
+/* --- ГЛАВНЫЙ HEADER (Базовое состояние для Menue1 - сразу с фоном) --- */
+.header-white
 {
-    width: 100%; /* Заменили на 100% для точности */
+    width: 100%;
     min-height: 80px;
     border: 0px solid black;
     display: flex;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #F7F4EE;
+    background-color: #F7F4EE; /* Белый/кремовый фон по умолчанию */
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    z-index: 1000; /* Чтобы шапка всегда была поверх картинок */
-    transition: all 0.4s ease-in-out; /* Перенесли сюда для плавности в обе стороны! */
+    z-index: 1000;
+    transition: all 0.4s ease-in-out;
 }
 
-/* --- АКТИВНЫЙ HEADER (При скролле) --- */
-/* Соединили .header.header_active без пробела */
+/* --- АКТИВНЫЙ HEADER ПРИ СКРОЛЛЕ (Если нужно изменить что-то при прокрутке) --- */
+.header-white.header-white_active
+{
+    /* Здесь можно оставить пустой или добавить другие эффекты при скролле */
+}
 
 /* --- ЛОГОТИП --- */
 .logo_div
@@ -28,7 +31,7 @@
 .logo
 {
     max-width: 65px;
-    height: auto; /* Позволяет картинке не искажаться */
+    height: auto;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -39,13 +42,13 @@
     min-width: 40%;
     border: 0px solid black;
     display: flex;
-    align-items: center; /* Центрируем меню вместо padding-top */
+    align-items: center;
 }
 .my-navbar
 {
     display: flex;
     justify-content: space-between;
-    width: 100%; /* Чтобы ссылки равномерно распределились */
+    width: 100%;
     padding: 0;
     margin: 0;
 }
@@ -53,7 +56,7 @@
 {
     list-style-type: none;
 }
-.my-navbar_a
+.my-navbar_a_white
 {
     text-decoration: none;
     transition: color 0.3s ease;
@@ -62,28 +65,28 @@
     position: relative;
     font-weight: 450;
     color: #6B6560;
-
 }
-.my-navbar_a:hover
+.my-navbar_a_white:hover
 {
     color: black;
 }
-.my-navbar_a::after {
+.my-navbar_a_active-white
+{
+    /* Стили для активных ссылок Menue1 при скролле (если нужно) */
+    color: #333333;
+}
+.my-navbar_a_white::after {
     content: "";
     position: absolute;
     left: 0;
-    top: 20px; /* Опускаем на самый низ элемента */
-    width: 0; /* 👈 Изначально ширина равна 0, поэтому линии не видно */
-    height: 2px; /* Толщина зеленой полоски */
-    background-color: #4A9B3F; /* Твой зеленый цвет с макета */
-
-    /* Эффект анимации: следим за изменением ширины в течение 0.3 секунд */
+    top: 20px;
+    width: 0;
+    height: 2px;
+    background-color: #4A9B3F;
     transition: width 0.3s ease-in-out;
 }
-
-/* 3. ЭФФЕКТ ХОВЕРА: при наведении увеличиваем ширину до 100% */
-.my-navbar_a:hover::after {
-    width: 100%; /* 👈 Линия плавно выезжает слева направо */
+.my-navbar_a_white:hover::after {
+    width: 100%;
 }
 
 /* --- ЛИЧНЫЙ КАБИНЕТ (ПАСПОРТ) --- */
@@ -96,7 +99,7 @@
     justify-content: flex-start;
     padding-left: 15px;
 }
-.user
+.userwhite
 {
     width: 40px;
     height: 40px;
@@ -108,8 +111,7 @@
     transition: all 0.3s ease;
     color: black;
 }
-
-.user:hover
+.userwhite:hover
 {
     color: #4A9B3F;
     border: 1.4px solid #4A9B3F;
@@ -128,13 +130,17 @@
     align-items: center;
     justify-content: flex-end;
 }
-.number
+.numberwhite
 {
     color: #4A9B3F;
     cursor: pointer;
     font-size: 16.5px;
-    text-decoration: none; /* Убирает подчеркивание, так как это тег <a> */
+    text-decoration: none;
     transition: color 0.3s ease;
+}
+.numberwhite.number_active-white
+{
+    color: black; /* Телефон меняет цвет при скролле в Menue1 */
 }
 
 /* --- КНОПКА ЗАКАЗА --- */
@@ -147,7 +153,7 @@
     justify-content: flex-start;
     padding-left: 15px;
 }
-.chosse_proect
+.chosse_proect_white
 {
     min-width: 160px;
     min-height: 40px;
@@ -160,16 +166,10 @@
     color: white;
     font-size: 15.5px;
     cursor: pointer;
-    transition: all 0.2s ease-in-out; /* Перенесли из hover сюда для плавного возврата */
+    transition: all 0.2s ease-in-out;
 }
-.chosse_proect:hover
+.chosse_proect_white:hover
 {
     background-color: #428B39;
-    transform: translateY(-2px); /* Вместо margin-top лучше использовать transform для плавной анимации */
+    transform: translateY(-2px);
 }
-
-.number.number_active
-{
-    color: black;
-}
-

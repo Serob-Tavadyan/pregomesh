@@ -7,11 +7,13 @@ import Contacts from "./component/Contacts";
 import Project from "./component/Project";
 import Texnologia from "./component/Texnologia";
 import Producing from "./component/Producing";
-import Escroy from "./component/Escroy";
+import Escrow from "./component/Escrow";
 import Blog from "./component/Blog";
-import Questions from "./component/Questions";
 import TreshchinyVLafete from "./component/TreshchinyVlafete";
-
+import SushkaDrevisini from "./component/SushkaDrevisini";
+import PochemuStroitelstvoIzLafetaSchitaetsya from "./component/PochemuStroitelstvoIzLafetaSchitaetsya";
+import Faq from "./component/Faq";
+import Passport from "./component/Passport";
 function App(props) {
     return (
         <div>
@@ -20,11 +22,14 @@ function App(props) {
                 <Route path="/Project" element={<Project />} />
                 <Route path="/Texnologia" element={<Texnologia />} />
                 <Route path="/Producing" element={<Producing />} />
-                <Route path="/Escroy" element={<Escroy />} />
+                <Route path="/Escrow" element={<Escrow />} />
                 <Route path="/Blog" element={<Blog />} />
-                <Route path="/Questions" element={<Questions />} />
+                <Route path="/Faq" element={<Faq />} />
                 <Route path="/Contacts" element={<Contacts />} />
-                <Route path="/TreshchinyVLafete" element={<TreshchinyVLafete/>} />
+                <Route path="/TreshchinyVLafete" element={<TreshchinyVLafete />} />
+                <Route path="/SushkaDrevisini" element={<SushkaDrevisini/>} />
+                <Route path="/Passport" element={<Passport/>}/>
+                <Route path="/PochemuStroitelstvoIzLafetaSchitaetsya" element={<PochemuStroitelstvoIzLafetaSchitaetsya/>} />
             </Routes>
         </div>
     );

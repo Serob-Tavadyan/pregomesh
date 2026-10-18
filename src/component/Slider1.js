@@ -31,6 +31,7 @@ export default function Slider1({ onClose }) {
     };
 
     return (
+
         <div className="slider-wrapper1">
 
             <div className="slider-header">

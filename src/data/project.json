@@ -1,0 +1,924 @@
+[
+  {
+    "id": "dugnad",
+    "category": "houses",
+    "area": 130,
+    "floors": 1,
+    "bedrooms": 3,
+    "price": 10700000,
+    "image": "/dugnad.webp"
+  },
+  {
+    "id": "loen",
+    "category": "houses",
+    "isGlamping": true,
+    "area": 85,
+    "floors": 1,
+    "bedrooms": 3,
+    "price": 6990000,
+    "image": "/loen.webp"
+  },
+
+  {
+    "id": "gausdal",
+    "category": "houses",
+    "area": 147,
+    "floors": 1,
+    "bedrooms": 3,
+    "price": 9752525,
+    "image": "gausdai.webp"
+  },
+  {
+    "id": "fitjar",
+    "category": "houses",
+    "area": 84,
+    "floors": 1,
+    "isGlamping": true,
+
+    "bedrooms": 1,
+    "price": 7815000,
+    "image": "fitjar.webp"
+  },
+  {
+    "id": "surnadal",
+    "category": "baths",
+    "area": 90,
+    "isGlamping": true,
+
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 7870000,
+    "image": "surnadal.webp"
+  },
+  {
+    "id": "granvin",
+    "category": "houses",
+    "area": 140,
+    "floors": 1,
+    "bedrooms": 3,
+    "price": 10600000,
+    "image": "granvin.webp"
+  },
+    {
+      "id": "myre",
+      "category": "houses",
+      "area": 187,
+      "floors": 1,
+      "bedrooms": 2,
+      "price": 9760000,
+      "image": "mure.webp"
+    },
+    {
+      "id": "fosnavag",
+      "category": "baths",
+      "area": 64,
+      "floors": 1,
+      "bedrooms": 0,
+      "price": 5400000,
+      "isGlamping": true,
+
+      "image": "fosnavag.webp "
+    },
+    {
+      "id": "fosnavag2",
+      "category": "baths",
+      "area": 65,
+      "floors": 1,
+      "isGlamping": true,
+
+      "bedrooms": 0,
+      "price": 5610000,
+      "image": "fosnavag2.webp"
+    },
+    {
+      "id": "kinsarvik",
+      "category": "baths",
+      "area": 52,
+      "floors": 1,
+      "bedrooms": 0,
+      "price": 5600000,
+      "image": "kinsarvik.webp",
+      "isGlamping": true
+    },
+    {
+      "id": "tonstad",
+      "category": "houses",
+      "area": 128,
+      "floors": 1,
+      "bedrooms": 3,
+      "price": 8610000,
+      "image": "tonstad.webp"
+    },
+    {
+      "id": "tonstad2",
+      "category": "houses",
+      "area": 152,
+      "floors": 1,
+      "bedrooms": 3,
+      "price": 10130850,
+      "image": "/tonstad2.webp"
+    },
+    {
+      "id": "locarno",
+      "category": "houses",
+      "area": 155,
+      "floors": 2,
+      "bedrooms": 4,
+      "price": 12000000,
+      "image": "/locarno.webp"
+    },
+    {
+      "id": "lyse",
+      "category": "houses",
+      "area": 130,
+      "floors": 2,
+      "bedrooms": 2,
+      "price": 6200000,
+      "image": "/lyse.webp"
+    },
+    {
+      "id": "honefoss",
+      "category": "houses",
+      "area": 140,
+      "floors": 1,
+      "bedrooms": 2,
+      "price": 8220000,
+      "image": "/honefoss.webp"
+    },
+    {
+      "id": "vik",
+      "category": "houses",
+      "area": 180,
+      "floors": 1,
+      "bedrooms": 3,
+      "price": 8262000,
+      "isGlamping": true,
+
+      "image": "/vik.webp"
+    },
+    {
+      "id": "hardanger",
+      "category": "houses",
+      "area": 107,
+      "floors": 1,
+      "bedrooms": 2,
+      "price": 6450000,
+      "image": "/hardanger.webp"
+    },
+    {
+      "id": "verona",
+      "category": "houses",
+      "area": 154,
+      "floors": 2,
+      "bedrooms": 5,
+      "price": 8900000,
+      "image": "/verona.webp"
+    },
+    {
+      "id": "bormio",
+      "category": "houses",
+      "area": 130,
+      "floors": 1,
+      "bedrooms": 3,
+      "price": 10000000,
+      "image": "/bormio.webp"
+    },
+    {
+      "id": "folla",
+      "category": "houses",
+      "area": 123,
+      "floors": 1,
+      "bedrooms": 2,
+      "price": 6324000,
+      "image": "/folla.webp"
+    },
+    {
+      "id": "fredrikstad",
+      "category": "houses",
+      "area": 135,
+      "floors": 1,
+      "bedrooms": 3,
+      "price": 8550000,
+      "image": "/fredrikstad.webp"
+    },
+    {
+      "id": "sandnes",
+      "category": "houses",
+      "area": 126,
+      "floors": 1,
+      "bedrooms": 2,
+      "price": 8270000,
+      "image": "/sandnes.webp"
+    },
+    {
+      "id": "nesodden",
+      "category": "baths",
+      "area": 24,
+      "floors": 1,
+      "bedrooms": 0,
+      "price": 3100000,
+      "image": "/nesodden.webp"
+    },
+    {
+      "id": "oppstryn",
+      "category": "garages",
+      "area": 86,
+      "floors": 1,
+      "bedrooms": 0,
+      "price": 5630000,
+      "image": "/oppstryn.webp"
+    },
+    {
+      "id": "volda",
+      "category": "garages",
+      "area": 110,
+      "floors": 1,
+      "bedrooms": 0,
+      "price": 4950000,
+      "image": "/volda.webp"
+    },
+    {
+      "id": "carport2",
+      "category": "garages",
+      "area": 80,
+      "floors": 1,
+      "bedrooms": 0,
+      "price": 3700000,
+      "image": "/carport-2.webp"
+    },
+    {
+      "id": "carport",
+      "category": "garages",
+      "area": 80,
+      "floors": 1,
+      "bedrooms": 0,
+      "price": 4000000,
+      "image": "/carport.webp"
+    },
+    {
+      "id": "garasje",
+      "category": "garages",
+      "area": 104,
+      "floors": 1,
+      "bedrooms": 0,
+      "price": 6320000,
+      "image": "/garasje.webp"
+    },
+    {
+      "id": "lugano",
+      "category": "baths",
+      "area": 110,
+      "floors": 1,
+      "bedrooms": 0,
+      "price": 6050000,
+      "image": "/lugano.webp"
+    },
+    {
+      "id": "vardo",
+      "category": "houses",
+      "area": 170,
+      "floors": 1,
+      "bedrooms": 3,
+      "price": 12000000,
+      "image": "/Vardø.webp"
+    },
+    {
+      "id": "sogne",
+      "category": "houses",
+      "area": 135,
+      "floors": 1,
+      "bedrooms": 2,
+      "price": 6936000,
+      "image": "/sogne.webp"
+    },
+    {
+      "id": "dervio",
+      "category": "houses",
+      "area": 116.8,
+      "floors": 2,
+      "bedrooms": 3,
+      "price": 6900000,
+      "image": "/dervio.webp"
+    },
+    {
+      "id": "torino",
+      "category": "houses",
+      "area": 133,
+      "floors": 2,
+      "bedrooms": 2,
+      "price": 8633000,
+      "image": "/torino.webp"
+    },
+    {
+      "id": "lofoten",
+      "category": "houses",
+      "area": 144,
+      "floors": 1,
+      "bedrooms": 3,
+      "price": 11580000,
+      "image": "/lofoten.webp"
+    },
+    {
+      "id": "hugge",
+      "category": "houses",
+      "area": 162,
+      "floors": 1,
+      "bedrooms": 3,
+      "price": 10500000,
+      "image": "/hugge.webp"
+    },
+    {
+      "id": "lillesand",
+      "category": "baths",
+      "area": 36,
+      "floors": 1,
+      "bedrooms": 0,
+      "price": 3770000,
+      "image": "/lillesand.webp"
+    },
+    {
+      "id": "sortland",
+      "category": "houses",
+      "area": 175,
+      "floors": 1,
+      "bedrooms": 2,
+      "price": 12600000,
+      "image": "/sortland.webp"
+    },
+    {
+      "id": "mandal",
+      "category": "houses",
+      "area": 160,
+      "floors": 2,
+      "bedrooms": 4,
+      "price": 9620000,
+      "image": "/mandal.webp"
+    },
+    {
+      "id": "egersund",
+      "category": "houses",
+      "area": 153,
+      "floors": 1,
+      "bedrooms": 2,
+      "price": 8000000,
+      "image": "/egersund.webp"
+    },
+    {
+      "id": "bergen",
+      "category": "baths",
+      "area": 120,
+      "floors": 1,
+      "bedrooms": 0,
+      "price": 9000000,
+      "image": "/bergen.webp"
+    },
+    {
+      "id": "flam",
+      "category": "houses",
+      "area": 124,
+      "floors": 1,
+      "bedrooms": 1,
+      "isGlamping": true,
+
+      "price": 6200000,
+      "image": "/Flåm.webp"
+    },
+    {
+      "id": "sande",
+      "category": "houses",
+      "area": 81,
+      "floors": 1,
+      "bedrooms": 2,
+      "price": 5200000,
+      "image": "/sande.webp"
+    },
+    {
+      "id": "vinstra",
+      "category": "baths",
+      "area": 85,
+      "floors": 1,
+      "bedrooms": 0,
+      "isGlamping": true,
+
+      "price": 5500000,
+      "image": "/vinstra.webp"
+    },
+    {
+      "id": "trondheim",
+      "category": "houses",
+      "area": 73,
+      "floors": 1,
+      "bedrooms": 2,
+      "price": 5345533,
+      "image": "/trondheim.webp"
+    },
+    {
+      "id": "oppdal",
+      "category": "houses",
+      "area": 80,
+      "floors": 2,
+      "bedrooms": 3,
+      "price": 4700000,
+      "image": "/oppdal.webp"
+    },
+    {
+      "id": "alesund",
+      "category": "houses",
+      "area": 144,
+      "floors": 1,
+      "bedrooms": 3,
+      "price": 10200000,
+      "image": "/alesund.webp"
+    },
+    {
+      "id": "ardal",
+      "category": "baths",
+      "area": 101,
+      "floors": 1,
+      "bedrooms": 0,
+      "price": 5202000,
+      "image": "/ardal.webp"
+    },
+    {
+      "id": "sarpsborg",
+      "category": "baths",
+      "area": 52,
+      "floors": 1,
+      "bedrooms": 0,
+      "price": 4000000,
+      "image": "/sarpsborg.webp"
+    },
+    {
+      "id": "brunust",
+      "category": "baths",
+      "area": 80,
+      "floors": 1,
+      "bedrooms": 0,
+      "price": 4721310,
+      "isGlamping": true,
+
+      "image": "/brunust.webp"
+    },
+    {
+      "id": "brunust2",
+      "category": "baths",
+      "area": 71,
+      "floors": 1,
+      "bedrooms": 0,
+      "price": 4730000,
+      "image": "/brunust-2.webp"
+    },
+    {
+      "id": "gekkota",
+      "category": "houses",
+      "area": 162,
+      "floors": 1,
+      "bedrooms": 3,
+      "price": 11630000,
+      "image": "/gekkota.webp"
+    },
+  {
+    "id": "austevoll",
+    "category": "baths",
+    "area": 57.6,
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 3752650,
+    "image": "/austevoll.webp"
+  },
+  {
+    "id": "austevoll2",
+    "category": "baths",
+    "area": 54,
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 4430000,
+    "image": "/Austevoll 2.webp"
+  },
+  {
+    "id": "luster",
+    "category": "houses",
+    "area": 61,
+    "floors": 1,
+    "bedrooms": 2,
+    "price": 4592970,
+    "isGlamping": true,
+
+    "image": "/luster.webp"
+  },
+  {
+    "id": "andenes",
+    "category": "houses",
+    "area": 67,
+    "floors": 1,
+    "bedrooms": 2,
+    "price": 4723990,
+    "image": "/andenes.webp",
+    "isGlamping": true
+  },
+  {
+    "id": "otta",
+    "category": "houses",
+    "area": 55,
+    "isGlamping": true,
+
+    "floors": 1,
+    "bedrooms": 2,
+    "price": 4532870,
+    "image": "/otta.webp"
+  },
+  {
+    "id": "norheimsund",
+    "category": "houses",
+    "area": 51,
+    "floors": 1,
+    "bedrooms": 1,
+    "price": 3117540,
+    "isGlamping": true,
+
+    "image": "/norheimsund.webp"
+  },
+  {
+    "id": "austevoll3",
+    "category": "baths",
+    "area": 49,
+    "floors": 1,
+    "bedrooms": 0,
+    "isGlamping": true,
+
+    "price": 4200000,
+    "image": "/Austevoll 3.webp"
+  },
+  {
+    "id": "tinn",
+    "category": "houses",
+    "area": 48,
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 4282000,
+    "isGlamping": true,
+
+    "image": "/tinn.webp"
+  },
+  {
+    "id": "kopervik",
+    "category": "baths",
+    "area": 54,
+    "floors": 1,
+    "bedrooms": 0,
+    "isGlamping": true,
+
+    "price": 4000000,
+    "image": "/kopervik.webp"
+  },
+  {
+    "id": "lagom",
+    "category": "houses",
+    "area": 177,
+    "floors": 1,
+    "bedrooms": 3,
+    "price": 6354600,
+    "isGlamping": true,
+
+    "image": "/lagom.webp"
+  },
+  {
+    "id": "cremona",
+    "category": "houses",
+    "area": 80,
+    "floors": 1,
+    "bedrooms": 2,
+    "price": 6921690,
+    "image": "/cremona.webp"
+  },
+  {
+    "id": "sogndal",
+    "category": "houses",
+    "area": 85,
+    "floors": 1,
+    "bedrooms": 1,
+    "price": 4799200,
+    "image": "/sogndal.webp"
+  },
+  {
+    "id": "alta",
+    "category": "houses",
+    "area": 54.7,
+    "floors": 1,
+    "bedrooms": 1,
+    "price": 5350000,
+    "image": "/alta.webp"
+  },
+  {
+    "id": "rena",
+    "category": "baths",
+    "area": 38,
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 3600000,
+    "isGlamping": true,
+
+    "image": "/rena.webp"
+  },
+  {
+    "id": "akra",
+    "category": "houses",
+    "area": 211,
+    "floors": 2,
+    "bedrooms": 3,
+    "price": 14200000,
+    "image": "/Åkra.webp"
+  },
+  {
+    "id": "brekstad",
+    "category": "baths",
+    "area": 218,
+    "floors": 2,
+    "bedrooms": 0,
+    "price": 11000000,
+    "image": "/brekstad.webp"
+  },
+  {
+    "id": "elverum",
+    "category": "houses",
+    "area": 230,
+    "floors": 2,
+    "bedrooms": 4,
+    "price": 12350000,
+    "image": "/elverum.webp"
+  },
+  {
+    "id": "horten",
+    "category": "baths",
+    "area": 60,
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 5350000,
+    "image": "/horten.webp"
+  },
+  {
+    "id": "hitra",
+    "category": "garages",
+    "area": 23,
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 2455000,
+    "image": "/hitra.webp"
+  },
+  {
+    "id": "hokksund",
+    "category": "houses",
+    "area": 225,
+    "floors": 2,
+    "bedrooms": 3,
+    "price": 12500000,
+    "image": "/hokksund.webp"
+  },
+  {
+    "id": "beavinget",
+    "category": "houses",
+    "area": 283,
+    "floors": 2,
+    "bedrooms": 4,
+    "price": 12500000,
+    "image": "/beavinget.webp"
+  },
+  {
+    "id": "veliere",
+    "category": "houses",
+    "area": 200,
+    "floors": 2,
+    "bedrooms": 4,
+    "price": 9900000,
+    "image": "/veliere.webp"
+  },
+  {
+    "id": "notodden",
+    "category": "houses",
+    "area": 223,
+    "floors": 2,
+    "bedrooms": 4,
+    "price": 11500000,
+    "image": "/notodden.webp"
+  },
+  {
+    "id": "etne",
+    "category": "houses",
+    "area": 260,
+    "floors": 1,
+    "bedrooms": 3,
+    "price": 18300000,
+    "image": "/etne.webp"
+  },
+  {
+    "id": "hammerfest",
+    "category": "houses",
+    "area": 230,
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 14890000,
+    "image": "/hammerfest.webp"
+  },
+  {
+    "id": "brekke",
+    "category": "houses",
+    "area": 208,
+    "floors": 2,
+    "bedrooms": 3,
+    "price": 10450000,
+    "image": "/brekke.webp"
+  },
+  {
+    "id": "hirwend",
+    "category": "houses",
+    "area": 113,
+    "floors": 2,
+    "bedrooms": 2,
+    "price": 8630000,
+    "image": "/hirwend.webp"
+  },
+  {
+    "id": "isbren",
+    "category": "houses",
+    "area": 152,
+    "floors": 1,
+    "bedrooms": 3,
+    "price": 10900000,
+    "image": "/isbren.webp"
+  },
+  {
+    "id": "raufoss",
+    "category": "baths",
+    "area": 91.39,
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 8720000,
+    "image": "/raufoss.webp"
+  },
+  {
+    "id": "brevik",
+    "category": "houses",
+    "area": 268,
+    "floors": 2,
+    "bedrooms": 3,
+    "price": 12000000,
+    "image": "/brevik.webp"
+  },
+  {
+    "id": "hamar",
+    "category": "houses",
+    "area": 55,
+    "floors": 2,
+    "bedrooms": 1,
+    "price": 2800000,
+    "image": "/hamar.webp"
+  },
+  {
+    "id": "grimstad",
+    "category": "baths",
+    "area": 48,
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 3260000,
+    "image": "/grimstad.webp"
+  },
+  {
+    "id": "garda",
+    "category": "houses",
+    "area": 203,
+    "floors": 2,
+    "bedrooms": 3,
+    "price": 9562190,
+    "image": "/garda.webp"
+  },
+  {
+    "id": "iseo",
+    "category": "baths",
+    "area": 61,
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 4710000,
+    "image": "/iseo.webp"
+  },
+  {
+    "id": "kirkenes",
+    "category": "houses",
+    "area": 202,
+    "floors": 1,
+    "bedrooms": 2,
+    "price": 16860000,
+    "image": "/kirkenes.webp"
+  },
+  {
+    "id": "flekke",
+    "category": "houses",
+    "area": 55,
+    "floors": 1,
+    "bedrooms": 2,
+    "isGlamping": true,
+
+    "price": 3674700,
+    "image": "/flekke.webp"
+  },
+  {
+    "id": "kongsberg",
+    "category": "houses",
+    "area": 258,
+    "floors": 1,
+    "bedrooms": 2,
+    "price": 16790000,
+    "image": "/kongsberg.webp"
+  },
+  {
+    "id": "lausanne",
+    "category": "baths",
+    "area": 62,
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 4480000,
+    "image": "/lausanne.webp"
+  },
+  {
+    "id": "molde",
+    "category": "baths",
+    "area": 27,
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 2840000,
+    "image": "/molde.webp"
+  },
+  {
+    "id": "odda",
+    "category": "baths",
+    "area": 36,
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 2960000,
+    "image": "/odda.webp"
+  },
+  {
+    "id": "porsager",
+    "category": "houses",
+    "area": 120,
+    "floors": 1,
+    "bedrooms": 2,
+    "price": 7185000,
+    "image": "/porsager.webp"
+  },
+  {
+    "id": "rienhet",
+    "category": "houses",
+    "area": 227,
+    "floors": 1,
+    "bedrooms": 3,
+    "price": 13440000,
+    "image": "/rienhet.webp"
+  },
+  {
+    "id": "sauda",
+    "category": "baths",
+    "area": 32,
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 3822000,
+    "image": "/sauda.webp"
+  },
+  {
+    "id": "sirmione",
+    "category": "baths",
+    "area": 112,
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 7100000,
+    "image": "/sirmione.webp"
+  },
+  {
+    "id": "levanger",
+    "category": "baths",
+    "area": 49,
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 5580000,
+    "image": "/levanger.webp"
+  },
+  {
+    "id": "skarnes",
+    "category": "houses",
+    "area": 84,
+    "floors": 1,
+    "isGlamping": true,
+
+    "bedrooms": 4,
+    "price": 5550000,
+    "image": "/skarnes.webp"
+  },
+  {
+    "id": "fefor",
+    "category": "baths",
+    "area": 7.35,
+    "floors": 1,
+    "bedrooms": 0,
+    "price": 10962000,
+    "image": "/fefor.webp"
+  }
+]

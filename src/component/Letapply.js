@@ -2,7 +2,8 @@ import {PatternFormat} from "react-number-format";
 import {Link} from "react-router-dom";
 import '../css/LetApply.css';
 import React, { useState } from 'react';
-
+import Choose from "./Chooseproect";
+import { useModalStore } from '../useModalStore';
 
 function Letapply(props) {
     const [question, setQuestion] = React.useState(false);
@@ -10,7 +11,7 @@ function Letapply(props) {
     const [phone, setPhone] = React.useState('');
     return (
         <div>
-
+            <Choose/>
             <div className={"fiveteen_part"}>
                 <div className={"fiveteen_partinner"}>
                     <div className={"fiveteen_partinner1"}>

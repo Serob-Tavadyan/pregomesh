@@ -1,0 +1,232 @@
+.podobrat_proekt
+{
+    width: 100%;
+    height: 100vh;
+    border:1px solid white;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 1002;
+    backdrop-filter: blur(12px);
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+.podobrat_proekt{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.podobrat_proekt_inner{
+    width: 55%;
+    height: 99%;
+    border: 1px solid white;
+    background: #F2F3F0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.podobrat_proekt_inner_content
+{
+    width: 100%;
+    min-height: 70px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid #E7E8E5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px 0px 20px;
+    font-size: 22px;
+    font-weight: 650;
+    font-family: 'Outfit', 'Inter', sans-serif;
+
+}
+.img_xmark
+{
+    font-size: 19px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    color: #404040;
+
+}
+.img_xmark:hover{
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+.podobrat_proekt_inner_content2
+{
+    width: 95%;
+    height: 5px;
+    border: 0px solid black;
+    background: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: hidden;
+
+}
+.snake_div
+{
+    height: 100%;
+   width: 12%;
+    /* ԱՄԵՆԱԿԱՐԵՎՈՐ ՄԱՍԸ. Ձախից մուգ կանաչ է, իսկ աջ ծայրում (100%) դառնում է բաց/թափանցիկ կանաչ */
+    background-image: linear-gradient(to right, #57A24C 0%, #DEEFDC 100%);
+
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+    /* Սա ստիպում է, որ հաջորդ քայլին անցնելիս width-ը կտրուկ չփոխվի, այլ սահուն առաջ գնա */
+    transition: width 0.4s ease-in-out;
+
+}
+.podobrat_proekt_inner_content3
+{
+    width: 100%;
+    min-height: 70px;
+    border:0px solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.content3_grey
+{
+    color: #9D9791;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Outfit', 'Inter', sans-serif;
+}
+/* Проверяем: если на странице отрендерен overlay квиза, замораживаем фон */
+html:has(.podobrat_proekt),
+body:has(.podobrat_proekt) {
+    overscroll-behavior: none !important;
+    height: 100vh !important;
+    position: fixed !important;
+    width: 100% !important;
+}
+
+/* Стили для внешнего серого контейнера прогресс-бара */
+.progress_bar_container {
+    width: 100%;
+    height: 6px;
+    background-color: #eef2f3;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+/* Ваша красивая змейка-индикатор с градиентом */
+.snake_div {
+    height: 100%;
+    background-image: linear-gradient(to right, #40a05e 0%, #a4dbb2 100%);
+    border-radius: 10px;
+    transition: width 0.4s ease-in-out;
+}
+.middle_div_podobrat{
+    width: 100%;
+    min-height: 60%;
+    border-bottom: 1.2px solid #E2E3E1;
+    display: flex;
+}
+.end_div_podobrat
+{
+    width: 100%;
+    min-height: 12.5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.quiz_btn_back
+{
+    width: 110px;
+    height: 50px;
+    background-color: #F2F3F0;
+    border-radius: 5px;
+    border: 1px solid #E2E3E1;
+    font-size: 15px;
+    transition: 0.2s ease-in-out;
+
+}
+.quiz_btn_back:hover
+{
+     border: 1px solid #B1B2B0;
+     transition: 0.2s ease-in-out;
+ }
+.quiz_btn_next
+{
+    width: 120px;
+    height: 50px;
+    background-color: #428A38;
+    border-radius: 5px;
+    border: 1px solid #E2E3E1;
+    font-size: 15px;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+.quiz_btn_next:hover
+{
+    border: 1px solid #B1B2B0;
+    transition: 0.2s ease-in-out;
+}
+.middle_div_podobrat_1
+{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.middle_div_podobrat_1_title
+{
+    color: black;
+    font-size: 25px;
+    font-weight:550;
+    font-family: 'Outfit', 'Inter', sans-serif;
+}
+.middle_div_podobrat_1_grey
+{
+    color: #66605B;
+    font-size: 16.5px;
+    font-weight:450;
+    margin-top: 20px;
+    margin-left: 4px;
+    font-family: 'Outfit', 'Inter', sans-serif;
+}
+.middle_div_podobrat_1_choose_btn
+{
+    width: 100%;
+    min-height: 275px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 20px;
+}
+.live_home_div
+{
+    width: 96%;
+    min-height: 75px;
+    border: 3px solid #E4E4E4;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    
+}
+.live_home_div:hover
+{
+    border: 3px solid black;
+    transition: 0.3s ease-in-out;
+}

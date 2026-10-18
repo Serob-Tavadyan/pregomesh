@@ -1,0 +1,567 @@
+.texno_part1
+{
+    width: 100%;
+    height: auto;
+    border: 0px solid black;
+    padding-top: 80px;
+    background-color: #F9FAF7;
+}
+.texno_part1_first
+{
+    width: 100%;
+    height: auto;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 180px;
+}
+.texnologia_div{
+    width: 100%;
+    min-height: 80px;
+    border: 0px solid black;
+    color: #4A9B3F;
+    font-family: 'Outfit', 'Inter', sans-serif;
+   font-size: 13.5px;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+.why_home_maded_div
+{
+    width: 100%;
+    min-height: 140px;
+    border: 0px solid black;
+    color: black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:55.5px;
+    font-weight:750;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
+    padding-right: 445px;
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+.Norvejskih_div
+{
+    width: 100%;
+    min-height: 50px;
+    border: 0px solid black;
+    color: #847D77;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 17.5px;
+    font-weight: 450;
+    padding-right: 525px;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+.texno_part2
+{
+    width: 100%;
+    height: auto;
+    border: 0px solid black;
+    display: flex;
+    background: #F9FAF7;
+}
+.texno_part2_half1
+{
+    width: 50%;
+    height: auto;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+
+}
+.blog3_texno
+{
+    width: 92%;
+    min-height: 700px;
+    border: 0px solid black;
+    border-radius: 25px;
+}
+.texno_part2_half2
+{
+    width: 50%;
+    height: auto;
+    border: 0px solid black;
+   display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.half2_div1
+{
+    width:95%;
+    height:520px;
+    border: 1px solid #EDEDED;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+    cursor: pointer;
+
+}
+.half2_div1:hover {
+    box-shadow:
+            0 15px 35px rgba(0, 0, 0, 0.12),  /* Первый слой: объёмный, мягкий (12% плотности) */
+            0 5px 15px rgba(0, 0, 0, 0.06);
+    transition: 0.3s ease-in-out;
+}
+.number_one_div
+{
+    width: 100%;
+    min-height: 100px;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 25px;
+    font-family: "Arial Black";
+    font-size: 73.5px;
+    font-weight: 750;
+    color: #DAEAD8;
+}
+.Norjevskih_200
+{
+    width: 100%;
+    min-height: 90px;
+    border: 0px solid black;
+    color: black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:45.5px;
+    font-weight:750;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
+    padding-right:45px;
+    align-items: flex-start;
+}
+.Lafet_it_is{
+    width: 100%;
+    min-height: 50px;
+    border: 0px solid black;
+    color: #6B6560;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    letter-spacing: 0.3px;
+    display: flex;
+    padding-right: 23px;
+    justify-content: flex-end;
+    padding-left: 25px;
+    padding-top: 15px;
+    align-items: flex-start;
+    line-height: 25px;
+}
+.checked_div_texno
+{
+    width: 100%;
+    min-height: 165px;
+    border: 0px solid black;
+    padding-left:25px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 15px;
+}
+.check_texno
+{
+    color: #4A9B3F;
+}
+.texno_text
+{
+    color: #6B6560;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    letter-spacing: 0.3px;
+}
+.texno_span
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.half2_div2
+{
+    width:95%;
+    height:220px;
+    border: 1px solid #EDEDED;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 45px;
+    gap: 20px;
+}
+.half2_div2:hover {
+    box-shadow:
+            0 15px 35px rgba(0, 0, 0, 0.12),  /* Первый слой: объёмный, мягкий (12% плотности) */
+            0 5px 15px rgba(0, 0, 0, 0.06);
+    transition: 0.3s ease-in-out;
+}
+.vhy_sosna
+{
+    color: black;
+    font-size: 30px;
+    font-weight:650;
+    font-family: 'Outfit', 'Inter', sans-serif;
+
+}
+.texno_text1
+{
+    color: #6B6560;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+}
+.texno_part3{
+    width: 100%;
+    height: auto;
+    border: 0px solid black;
+    background-color: #F0F3EC;
+    display: flex;
+    align-items: flex-start;
+    padding-left:5px;
+    padding-top:125px;
+    padding-bottom: 125px;
+}
+.texno_part3_half1
+{
+    width: 50%;
+    min-height:690px;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 30px;
+}
+.half1_innerdiv
+{
+    width: 96%;
+    min-height: 700px;
+    border: 1px solid #EDEDED;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.half1_innerdiv:hover {
+    box-shadow:
+            0 15px 35px rgba(0, 0, 0, 0.12),  /* Первый слой: объёмный, мягкий (12% плотности) */
+            0 5px 15px rgba(0, 0, 0, 0.06);
+    transition: 0.3s ease-in-out;
+}
+.part3_div4
+{
+    width: 90%;
+    min-height: 150px;
+    border: 1px solid #EDEDED;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.green_texno
+{
+    color: #4A9B3F;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 650;
+}
+.grey_texno
+{
+    color: #6B6560;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 14.5px;
+    font-weight: 450;
+    line-height: 22px;
+}
+.half2_innerdiv2
+{
+    width: 96%;
+    min-height: 200px;
+    border: 1px solid #EDEDED;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 25px;
+    padding-top: 25px;
+    gap: 25px;
+    background-color: white;
+    border-radius: 25px;
+
+}
+.half2_innerdiv2:hover {
+    box-shadow:
+            0 15px 35px rgba(0, 0, 0, 0.12),  /* Первый слой: объёмный, мягкий (12% плотности) */
+            0 5px 15px rgba(0, 0, 0, 0.06);
+    transition: 0.3s ease-in-out;
+}
+.texno_part3_half2
+{
+    width: 50%;
+    min-height:932px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    padding-left: 30px;
+}
+.half2_inner2div
+{
+    width: 90%;
+    min-height:900px;
+    border: 1px solid #EDEDED;
+    background-color:white;
+    border-radius: 25px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.half2_inner2div:hover {
+    box-shadow:
+            0 15px 35px rgba(0, 0, 0, 0.12),  /* Первый слой: объёмный, мягкий (12% плотности) */
+            0 5px 15px rgba(0, 0, 0, 0.06);
+    transition: 0.3s ease-in-out;
+}
+.img_diamond-bowl
+{
+    width: 95%;
+    height: 870px;
+    border-radius: 25px;
+
+    border: 0px solid black;
+}
+.texno_part4
+{
+    width: 100%;
+    height: auto;
+    border: 0px solid black;
+    background-color: #F9FAF7;
+    display: flex;
+    padding-bottom: 260px;
+    padding-top: 120px;
+}
+.texno_part4_half1
+{
+    width: 50%;
+    min-height:900px;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.warm-seam_img
+{
+    width: 95%;
+    height: 950px;
+    border: 0px solid black;
+    border-radius: 25px;
+}
+.texno_part4_half2
+{
+    width: 50%;
+    min-height:900px;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 25px;
+    padding-top: 25px;
+    gap: 30px;
+}
+.part4_half2_div1
+{
+    width: 98%;
+    min-height: 500px;
+    border: 1px solid #EDEDED;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+.part4_half2_div1:hover {
+    box-shadow:
+            0 15px 35px rgba(0, 0, 0, 0.12),  /* Первый слой: объёмный, мягкий (12% плотности) */
+            0 5px 15px rgba(0, 0, 0, 0.06);
+    transition: 0.3s ease-in-out;
+}
+.lastdiv_texno4
+{
+    width: 100%;
+    min-height: 160px;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.politerm_div
+{
+    width: 44%;
+    min-height: 60%;
+    border: 0px solid black;
+    border-radius: 10px;
+    background-color:#E8EBE5;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 15px;
+    padding-top: 15px;
+    gap:5px;
+    flex-direction: column;
+    padding-right: 10px;
+}
+.part4_half2_div2
+{
+    width: 98%;
+    min-height: 330px;
+    border: 1px solid #EDEDED;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+.part4_half2_div2:hover {
+    box-shadow:
+            0 15px 35px rgba(0, 0, 0, 0.12),  /* Первый слой: объёмный, мягкий (12% плотности) */
+            0 5px 15px rgba(0, 0, 0, 0.06);
+    transition: 0.3s ease-in-out;
+}
+.grey_texnos{
+    width: 100%;
+    min-height: 70px;
+    border: 0px solid black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    color: #67615D;
+    padding-right: 75px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
+    align-items: flex-end;
+}
+.Norjevskih_2001
+{
+    width: 100%;
+    min-height:40px;
+    border: 0px solid black;
+    color: black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:45.5px;
+    font-weight:750;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
+    padding-right:45px;
+    align-items: flex-start;
+}
+.texno_part5
+{
+    width: 100%;
+    min-height: auto;
+    border: 0px solid black;
+    display: flex;
+    background: #F9FAF7;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 160px;
+}
+.texno_part5_inner{
+    width: 95%;
+    min-height: 440px;
+    border: 0px solid black;
+    background-color: #F0F3EC;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+
+}
+.inner_title
+{
+    color: black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+.inner_intr
+{
+    color: #67615D;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    max-width: 600px;
+}
+.zapisatca
+{
+    min-width: 280px;
+    min-height: 60px;
+    border: 1px solid #4CAF50;
+    border-radius: 40px;
+    background-color: #50A845;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+    font-family: 'Outfit', 'Inter', sans-serif;
+}
+.zapisatca:hover
+{
+    background-color: #37762F;
+    margin-top: -3px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 15px rgba(46, 139, 67, 0.4);
+    
+}
+.linktoa
+{
+    text-decoration: none !important ;
+
+}
+

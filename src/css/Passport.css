@@ -1,0 +1,405 @@
+.Passport_part1
+{
+    width: 100%;
+    height: auto;
+    border: 0px solid black;
+    display: flex;
+    background: #F9FAF7;
+}
+.part1_div1_passport
+{
+   width: 50%;
+    height: auto;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.div2_passport
+{
+width: 100%;
+    min-height: 250px;
+    border: 0px solid black;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 45px;
+    justify-content: flex-start;
+    padding-left: 25px;
+
+}
+.part1_div2_passport
+{
+    width: 50%;
+    height: auto;
+    border:0px solid black;
+}
+.passport_house
+{
+    min-width: 200px;
+    min-height: 40px;
+    border: 0px solid black;
+    border-radius: 20px;
+    background-color:#EBF5E9;
+    color: #499A3F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.part1_div2_passport{
+    width: 100%;
+    min-height: 140px;
+    border: 0px solid black;
+    color: black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 65px;
+    letter-spacing: 0.3px;
+    font-weight: 800;
+    padding-left: 25px;
+}
+.part1_div3_passport{
+    width: 100%;
+    min-height: 140px;
+    border: 0px solid black;
+    color:#50A744;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.3px;
+    font-weight: 700;
+    line-height: 50px;
+    padding-left: 25px;
+}
+.part1_div4_passport{
+    width: 100%;
+    min-height: 170px;
+    border: 0px solid black;
+    color:#6B6560;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    font-weight: 450;
+    line-height: 27px;
+    padding-left: 25px;
+    padding-right: 65px;
+}
+.part1_div5_passport{
+    width: 100%;
+    min-height: 80px;
+    border: 0px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 25px;
+    padding-bottom: 280px;
+
+}
+.div5_innerdiv_passport
+{
+    width: 50%;
+    min-height: 70px;
+    border: 0px solid black;
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    padding-top: 10px;
+    line-height: 20px;
+    color:#6B6560;
+}
+.div5_circle_passport
+{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 0px solid black;
+    background: #EDF7EB;
+    color: #4A9B3F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+   margin-top: -10px;
+
+}
+.part2_div1_passport
+{
+    width: 50%;
+    height: auto;
+    border:0px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 185px;
+
+}
+.part2_div1_passport_circle
+{
+    width: 600px;
+    height: 600px;
+    border: 0px solid black;
+    border-radius: 50%;
+    background: #D6EDD3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part2_div1_passport_img
+{
+    width: 540px;
+    height:540px;
+    border: 0px solid black;
+    border-radius: 50%;
+}
+.Passport_part2
+{
+    width: 100%;
+    min-height: 50px;
+    border: 0px solid black;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    padding-left: 25px;
+    color: #428B39;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 650;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #F9FAF7;
+
+}
+.Passport_part3
+{
+    width: 100%;
+    min-height: 80px;
+    border:0px solid black;
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    padding-left: 25px;
+    color: black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    background: #F9FAF7;
+
+}
+.Passport_part4
+{
+    width: 100%;
+    min-height:140px;
+    border: 0px solid black;
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    padding-left: 25px;
+    color: #77716D;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 18.6px;
+    padding-right: 650px;
+    font-weight: 420;
+    line-height: 25px;
+    background: #F9FAF7;
+
+}
+.Passport_part5
+{
+    width: 100%;
+    height: auto;
+    border: 0px solid black;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    padding-left:30px;
+    padding-right: 30px;
+    gap: 25px;
+    padding-bottom: 130px;
+    background: #F9FAF7;
+
+}
+.passport_card
+{
+    width: 25%;
+    min-height: 370px;
+    border: 1px solid #DBDBDB;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+    align-items:flex-start;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding-top: 45px;
+    padding-right: 40px;
+    gap: 20px;
+    cursor: pointer;
+}
+.passport_card:hover
+{
+    box-shadow: 2px 2px 8px #DBDBDB;
+    transition: 0.3s;
+
+}
+.square_passport
+{
+    width: 55px;
+    height:55px;
+    border:0px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F1FBEF;
+    color: #49993E;
+}
+.passport_title
+{
+    color: black;
+    font-weight: bold;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:17px;
+}
+.passport_intr
+{
+    color: #817A74;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:15px;
+    line-height: 20px;
+}
+.Passport_part6
+{
+    width: 100%;
+    height: auto;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 140px;
+    padding-bottom: 10px;
+    background: #F9FAF7;
+
+
+}
+.Passport_part7{
+    width: 96%;
+    height: auto;
+    border: 0px solid black;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    box-shadow: 2px 2px 8px black;
+
+
+}
+.Passport_part7_div1
+{
+    width: 100%;
+    min-height: 80px;
+    border: 0px solid black;
+    background: #1A1A18;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 190px;
+    padding-left: 30px;
+
+}
+.select_passport
+{
+        width: 100%;
+    min-height: 90px;
+    border-bottom: 1px solid #B6B6B6;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px;
+    padding-left: 30px;
+
+
+}
+.select_passport2
+{
+    width: 100%;
+    min-height: 90px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px;
+    padding-left: 30px;
+
+
+}
+.select_passport2:hover{
+    background:#E5EEE4;
+    transition: 0.3s;
+    min-height: 90px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+ .select_passport:hover{
+     background:#E5EEE4;
+     transition: 0.3s;
+ }
+ .Passport_part7_div1_title
+ {
+     color: white;
+     font-family: 'Outfit', 'Inter', sans-serif;
+     font-size:14.5px;
+     font-weight: 550;
+     letter-spacing: 0.5px;
+     text-transform: uppercase;
+ }
+ .select_passport_text_black
+ {
+     color: black;
+     font-family: 'Outfit', 'Inter', sans-serif;
+     font-size:15px;
+     font-weight: 600;
+     letter-spacing: 0.5px;
+     width: 290px;
+     line-height: 23px;
+ }
+.select_passport_text2_black
+{
+    color: black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    width: 330px;
+    line-height: 23px;
+}
+.select_passport_text3_black
+{
+    color: #817A74;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:15px;
+    width: 330px;
+    line-height: 20px;
+    margin-left: -20px;
+}

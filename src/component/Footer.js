@@ -1,9 +1,12 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import '../css/Footer.css';
+import Choose from "./Chooseproect";
+import { useModalStore } from '../useModalStore';
 function Footer(props) {
     return (
         <div>
+            <Choose/>
             <div className={"sixteen_part"}>
                 <div className={"sixpart_first"}>
                     <div className={"top_part_sixteen"}>

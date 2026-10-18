@@ -1,40 +1,413 @@
-
 {
   "catalog": {
+    "title": "Project Catalog",
     "common": {
-      "tooltip": "Price for a warm contour including delivery and installation. Calculated individually.",
-      "moredetails": "View details",
+      "tooltip": "Price for thermal contour, including delivery and installation. Individual calculation.",
+      "moredetails": "More Details",
       "meters": "sqm",
-      "floor": "floor"
+      "floor": "Floor",
+      "bedrooms": "Bedrooms",
+      "currency": "$"
     },
-    "spec": {
-      "bedroom1": "1 bedroom",
-      "bedrooms3": "3 bedrooms",
-      "banya": "Sauna / Bathhouse"
+    "categories": {
+      "all": "All",
+      "houses": "Houses",
+      "baths": "Baths",
+      "garages": "Gazebos / Garages"
     },
-    "dugnad": {
-      "name": "Dugnad",
-      "intro": "Spacious laft house with 3 bedrooms and a large terrace."
-    },
-    "loen": {
-      "name": "Loen",
-      "intro": "Laft house with 3 bedrooms, 2 bathrooms and expressive Scandinavian architecture."
-    },
-    "gausdal": {
-      "name": "Gausdal",
-      "intro": "One-story laft house with 3 bedrooms, a large kitchen-living room with panoramic..."
-    },
-    "fitjar": {
-      "name": "Fitjar",
-      "intro": "Guest laft house with a bedroom, kitchen-living room and a terrace."
-    },
-    "surnadal": {
-      "name": "Surnadal",
-      "intro": "Laft sauna complex with a steam room, lounge area, relaxation room and a terrace."
-    },
-    "granvin": {
-      "name": "Granvin",
-      "intro": "One-story laft house with 3 bedrooms, master suite and a large living room."
+    "projects": {
+      "dugnad": {
+        "name": "Dugnad",
+        "intro": "Spacious house made of flatted logs with 3 bedrooms and a large terrace."
+      },
+      "loen": {
+        "name": "Loen",
+        "intro": "Flatted log house with 3 bedrooms, 2 bathrooms and expressive Scandinavian architecture."
+      },
+      "gausdal": {
+        "name": "Gausdal",
+        "intro": "One-story house made of flatted logs with 3 bedrooms, large kitchen-living room and panoramic facade."
+      },
+      "fitjar": {
+        "name": "Fitjar",
+        "intro": "Guest house made of flatted logs with a bedroom, kitchen-living room and cozy terrace."
+      },
+      "surnadal": {
+        "name": "Surnadal",
+        "intro": "Flatted log bathhouse with steam room, comfortable lounge area, relaxation room and terrace."
+      },
+      "granvin": {
+        "name": "Granvin",
+        "intro": "One-story house made of flatted logs with 3 bedrooms, master suite and a large living room."
+      },
+      "myre": {
+        "name": "Myre",
+        "intro": "One-story flatted log house with panoramic glazing and a huge terrace."
+      },
+      "fosnavag": {
+        "name": "Fosnavåg",
+        "intro": "Flatted log bathhouse with a bedroom, kitchen, living room and covered BBQ area."
+      },
+      "fosnavag2": {
+        "name": "Fosnavåg 2",
+        "intro": "Flatted log bathhouse with steam room, kitchen-living room and covered BBQ area."
+      },
+      "kinsarvik": {
+        "name": "Kinsarvik",
+        "intro": "Flatted log bathhouse with a steam room, relaxation room and large covered terrace."
+      },
+      "tonstad": {
+        "name": "Tonstad",
+        "intro": "One-story flatted log house with a large kitchen-living room, 3 bedrooms, and 2 bathrooms."
+      },
+      "tonstad2": {
+        "name": "Tonstad-2",
+        "intro": "One-story flatted log house with 3 bedrooms, a terrace and a spacious kitchen-living room."
+      },
+      "locarno": {
+        "name": "Locarno",
+        "intro": "Family flatted log house with 4 bedrooms, a terrace and two balconies."
+      },
+      "lyse": {
+        "name": "Lyse",
+        "intro": "Flatted log house with a terrace, balconies and bright Scandinavian architecture."
+      },
+      "honefoss": {
+        "name": "Hønefoss",
+        "intro": "Modern one-story house made of flatted logs with a huge kitchen-living room."
+      },
+      "vik": {
+        "name": "Vik",
+        "intro": "Comfortable one-story flatted log family house: 3 bedrooms, 2 bathrooms, kitchen-dining area."
+      },
+      "hardanger": {
+        "name": "Hardanger",
+        "intro": "Flatted log house with 2 bedrooms, a study room and a large terrace."
+      },
+      "verona": {
+        "name": "Verona",
+        "intro": "Flatted log house with 5 bedrooms, large kitchen-living room and comfortable family layout."
+      },
+      "bormio": {
+        "name": "Bormio",
+        "intro": "Flatted log house with 3 bedrooms, a terrace and a large kitchen-living room."
+      },
+      "folla": {
+        "name": "Folla",
+        "intro": "Flatted log house with 2 bedrooms, a study room and two terraces."
+      },
+      "fredrikstad": {
+        "name": "Fredrikstad",
+        "intro": "One-story flatted log house with a large terrace, spacious common area and 3 bedrooms."
+      },
+      "sandnes": {
+        "name": "Sandnes",
+        "intro": "Compact one-story house made of flatted logs with a large terrace and private sauna."
+      },
+      "nesodden": {
+        "name": "Nesodden",
+        "intro": "Compact bathhouse made of flatted logs with a proper bath route and warm attic."
+      },
+      "oppstryn": {
+        "name": "Oppstryn",
+        "intro": "Flatted log garage with a 28 sqm closed box and a large carport."
+      },
+      "volda": {
+        "name": "Volda",
+        "intro": "Flatted log garage for 2 cars with a large carport for 2 additional parking spaces."
+      },
+      "carport2": {
+        "name": "Carport-2",
+        "intro": "Flatted log carport for a car, with an isolated storage room of 13.92 sqm."
+      },
+      "carport": {
+        "name": "Carport",
+        "intro": "Flatted log carport for 2-3 cars with two storage rooms and a Scandinavian silhouette."
+      },
+      "garasje": {
+        "name": "Garasje",
+        "intro": "Garage made of flatted logs with a closed box and a large carport under a common roof."
+      },
+      "lugano": {
+        "name": "Lugano",
+        "intro": "Lugano flatted log bathhouse: steam room, washing room, huge relaxation room and a terrace."
+      },
+      "vardo": {
+        "name": "Vardø",
+        "intro": "House made of flatted logs with 3 bedrooms, a large terrace and panoramic glazing."
+      },
+      "sogne": {
+        "name": "Sogne",
+        "intro": "Flatted log house with a residential attic, 2 bedrooms and a terrace."
+      },
+      "dervio": {
+        "name": "Dervio",
+        "intro": "Compact two-story flatted log house with a bath block on the ground floor and 3 bedrooms."
+      },
+      "torino": {
+        "name": "Torino",
+        "intro": "Flatted log house of 132.3 sqm with a terrace, balcony and two bedrooms."
+      },
+      "lofoten": {
+        "name": "Lofoten",
+        "intro": "One-story house made of flatted logs with a large terrace and warm entrance zone."
+      },
+      "hugge": {
+        "name": "Hugge",
+        "intro": "Flatted log house with a bath, 3 bedrooms and a large living room with a second light."
+      },
+      "lillesand": {
+        "name": "Lillesand",
+        "intro": "Flatted log bathhouse — a compact project with a functional relaxation room."
+      },
+      "sortland": {
+        "name": "Sortland",
+        "intro": "One-story flatted log house with a SPA block, patio and a large living room."
+      },
+      "mandal": {
+        "name": "Mandal",
+        "intro": "Flatted log house with an attic floor: large kitchen-living room and 4 bedrooms."
+      },
+      "egersund": {
+        "name": "Egersund",
+        "intro": "Cozy flatted log family house with a sauna, loft and second light."
+      },
+      "bergen": {
+        "name": "Bergen",
+        "intro": "Large modern bath complex made of flatted logs with panoramic glazing."
+      },
+      "flam": {
+        "name": "Flåm",
+        "intro": "Flatted log house with a steam room and a large terrace for year-round relaxation."
+      },
+      "sande": {
+        "name": "Sande",
+        "intro": "Flatted log house with 2 bedrooms, a working study room and a terrace."
+      },
+      "vinstra": {
+        "name": "Vinstra",
+        "intro": "Flatted log bathhouse with a steam room, washing room and a large relaxation room."
+      },
+      "trondheim": {
+        "name": "Trondheim",
+        "intro": "Compact flatted log house with 2 bedrooms and a covered terrace."
+      },
+      "oppdal": {
+        "name": "Oppdal",
+        "intro": "Flatted log house — compact project with an attic and 3 bedrooms."
+      },
+      "alesund": {
+        "name": "Alesund",
+        "intro": "One-story house made of flatted logs with 3 bedrooms and a spacious veranda."
+      },
+      "ardal": {
+        "name": "Årdal",
+        "intro": "Flatted log bathhouse with relaxation room, sauna, guest room and a large terrace."
+      },
+      "sarpsborg": {
+        "name": "Sarpsborg",
+        "intro": "Bathhouse made of flatted logs with a large terrace, spacious relaxation room and proper bath block."
+      },
+      "brunust": {
+        "name": "Brunust",
+        "intro": "Bathhouse made of flatted logs with a large terrace, kitchen and spacious relaxation room."
+      },
+      "brunust2": {
+        "name": "Brunust-2",
+        "intro": "Bathhouse made of flatted logs with a huge terrace of 29.6 sqm and a thoughtful wet zone."
+      },
+      "gekkota": {
+        "name": "Gekkota",
+        "intro": "Flatted log house with 3 bedrooms, a bath block and a large terrace."
+      },
+      "austevoll": {
+        "name": "Austevoll",
+        "intro": "Compact bathhouse made of flatted logs with a proper bath route and large covered veranda."
+      },
+      "austevoll2": {
+        "name": "Austevoll 2",
+        "intro": "Flatted log bathhouse with a steam room, shower room, relaxation room and terrace."
+      },
+      "luster": {
+        "name": "Luster",
+        "intro": "Scandinavian house made of flatted logs: two bedrooms, wide glazing and covered terrace."
+      },
+      "andenes": {
+        "name": "Andenes",
+        "intro": "Flatted log house with two bedrooms, corner glazing and a covered terrace."
+      },
+      "otta": {
+        "name": "Otta",
+        "intro": "Flatted log house with two bedrooms, wide glazing and a covered side terrace."
+      },
+      "norheimsund": {
+        "name": "Norheimsund",
+        "intro": "Flatted log house with a panoramic corner, separate bedroom and spacious terrace for two."
+      },
+      "austevoll3": {
+        "name": "Austevoll 3",
+        "intro": "Compact bathhouse made of flatted logs with a steam room, relaxation room and large terrace."
+      },
+      "tinn": {
+        "name": "Tinn",
+        "intro": "Compact guest house/pavilion made of flatted logs with a huge porch-terrace."
+      },
+      "kopervik": {
+        "name": "Kopervik",
+        "intro": "Compact flatted log bathhouse with a plunge pool, sauna and relaxation room."
+      },
+      "lagom": {
+        "name": "Lagom",
+        "intro": "Flatted log house with a bath, 3 bedrooms, a study room and a large terrace."
+      },
+      "cremona": {
+        "name": "Cremona",
+        "intro": "Compact one-story flatted log house with a cozy terrace and ideal layout."
+      },
+      "sogndal": {
+        "name": "Sogndal",
+        "intro": "House made of flatted logs with a steam room and a terrace in classic Scandinavian style."
+      },
+      "alta": {
+        "name": "Alta",
+        "intro": "Compact house of 'relaxation + overnight stay' format, with a large terrace and panoramic windows."
+      },
+      "rena": {
+        "name": "Rena",
+        "intro": "Compact flatted log bathhouse with a utility block and a relaxation room."
+      },
+      "akra": {
+        "name": "Åkra",
+        "intro": "Scandinavian style flatted log family house: convenient entrance zone and a large common area."
+      },
+      "brekstad": {
+        "name": "Brekstad",
+        "intro": "Flatted log house with a cinema, SPA zone, attic and a large kitchen-living room."
+      },
+      "elverum": {
+        "name": "Elverum",
+        "intro": "Large family house made of flatted logs with a sauna, 4 bedrooms, a terrace and three balconies."
+      },
+      "horten": {
+        "name": "Horten",
+        "intro": "Flatted log bathhouse 9×11 — panoramic glazing, second light and a huge terrace."
+      },
+      "hitra": {
+        "name": "Hitra",
+        "intro": "Closed gazebo made of flatted logs 5×5 m with a cozy interior and expressive roof."
+      },
+      "hokksund": {
+        "name": "Hokksund",
+        "intro": "Flatted log house with a sauna, 3 bedrooms and bright modern architecture."
+      },
+      "beavinget": {
+        "name": "Beavinget",
+        "intro": "Flatted log house with 4 bedrooms, a billiard room, a bath block and a large terrace."
+      },
+      "veliere": {
+        "name": "Veliere",
+        "intro": "Flatted log house with 4 bedrooms, a bath block and a large terrace."
+      },
+      "notodden": {
+        "name": "Notodden",
+        "intro": "Flatted log house with 4 bedrooms, a large terrace and a thoughtful family layout."
+      },
+      "etne": {
+        "name": "Etne",
+        "intro": "One-story flatted log house with 3 bedrooms, master suite and a large kitchen-living room."
+      },
+      "hammerfest": {
+        "name": "Hammerfest",
+        "intro": "Commercial building for a cafe/restaurant/banquet hall with a huge area."
+      },
+      "brekke": {
+        "name": "Brekke",
+        "intro": "Flatted log house with a balcony, a study room and expressive architecture."
+      },
+      "hirwend": {
+        "name": "Hirwend",
+        "intro": "Flatted log house with 2 bedrooms, a large common living room and a spacious terrace."
+      },
+      "isbren": {
+        "name": "Isbren",
+        "intro": "Flatted log house with a sauna, 3 bedrooms and a spacious kitchen-living room."
+      },
+      "raufoss": {
+        "name": "Raufoss",
+        "intro": "Modern flatted log bathhouse with a large relaxation room, kitchen and a bath block."
+      },
+      "brevik": {
+        "name": "Brevik",
+        "intro": "Flatted log house with 3 bedrooms, a sauna and a large exploitable roof."
+      },
+      "hamar": {
+        "name": "Hamar",
+        "intro": "Compact guest house/summer cottage made of flatted logs with an attic and a balcony."
+      },
+      "grimstad": {
+        "name": "Grimstad",
+        "intro": "Compact flatted log bathhouse with a large terrace and a full bath block."
+      },
+      "garda": {
+        "name": "Garda",
+        "intro": "Large family house made of flatted logs with a 'wow-facade' and panoramic glazing."
+      },
+      "iseo": {
+        "name": "Iseo",
+        "intro": "Flatted log bathhouse with a large terrace and ideal internal layout."
+      },
+      "kirkenes": {
+        "name": "Kirkenes",
+        "intro": "Modern flatted log bath house with a proper bath route and two bedrooms."
+      },
+      "flekke": {
+        "name": "Flekke",
+        "intro": "Compact project in the format of two autonomous guest modules."
+      },
+      "kongsberg": {
+        "name": "Kongsberg",
+        "intro": "One-story house made of flatted logs with a panoramic living room and a winter garden."
+      },
+      "lausanne": {
+        "name": "Lausanne",
+        "intro": "Compact flatted log bathhouse with a huge terrace and proper steam room structure."
+      },
+      "molde": {
+        "name": "Molde",
+        "intro": "Compact flatted log bathhouse with a comfortable and time-tested classical layout."
+      },
+      "odda": {
+        "name": "Odda",
+        "intro": "Compact flatted log bathhouse with a terrace and a comfortable relaxation room."
+      },
+      "porsager": {
+        "name": "Porsager",
+        "intro": "One-story Scandinavian flatted log house with a large open terrace."
+      },
+      "rienhet": {
+        "name": "Rienhet",
+        "intro": "Flatted log house with 3 bedrooms, a steam room, a plunge pool and a large terrace."
+      },
+      "sauda": {
+        "name": "Sauda",
+        "intro": "Compact flatted log bathhouse of Norwegian рубка — ideal combination of comfort and warmth."
+      },
+      "sirmione": {
+        "name": "Sirmione",
+        "intro": "Large bathhouse made of flatted logs with a panoramic facade and a terrace of 25.5 sqm."
+      },
+      "levanger": {
+        "name": "Levanger",
+        "intro": "Flatted log bathhouse with a large relaxation room and a comfortable bath route."
+      },
+      "skarnes": {
+        "name": "Skarnes",
+        "intro": "Compact flatted log duplex: two independent residential units."
+      },
+      "fefor": {
+        "name": "Fefor",
+        "intro": "Compact flatted log steam room of Norwegian рубка: minimum area, maximum steam."
+      }
     }
   }
 }

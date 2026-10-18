@@ -1,0 +1,438 @@
+.fiveteen_part_copy
+{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #E6E7E4;
+    display: flex;
+    background: #FAFAF8;
+    align-items: center;
+    justify-content: center;
+    padding-top:130px;
+    padding-bottom:130px;
+
+}
+.fiveteen_partinner_copy
+{
+    max-width: 63%;
+    height: auto;
+    border: 0px solid black;
+    border-radius:30px;
+    background:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.fiveteen_partinner1_copy
+{
+    width: 100%;
+    height: 180px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+
+}
+.fiveteen_partinner1_text_copy
+{
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:45px;
+    font-weight: 650;
+    max-width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    text-align: center;
+
+}
+.fiveteen_partinner2_copy
+{
+    width: 100%;
+    height: 110px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 10px;
+
+}
+.fiveteen_partinner2_text_copy
+{
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:17px;
+    font-weight: 450;
+    color: #6A645F;
+    line-height: 30px;
+    max-width: 550px;
+    text-align: center;
+}
+.fiveteen_partinner3_copy
+{
+    width: 100%;
+    height: 90px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 10px;
+
+}
+.fiveteen_partinner31_copy
+{
+    width:180px;
+    height: 90px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding-left: 26px;
+}
+.fiveteenicon_copy
+{
+    color: #4A9B3F;
+    font-size:17px;
+}
+.fiveteen_text_copy
+{
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:13px;
+
+}
+.form_copy
+{
+    width: 100%;
+    height: auto;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fiveteen_inp_div_copy{
+    width:90%;
+    height: 100px;
+    border: 0px solid #989898;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    gap: 10px;
+    flex-direction: column;
+    padding-left: 25px;
+}
+.inp_text_copy
+{
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:13px;
+    color: #6A645F;
+    font-weight: 550;
+}
+.fiveteen_inp_copy
+{
+    width:94%;
+    height:45px;
+    border: 1px solid #989898;
+    color: black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 13px;
+    outline: none;
+    border-radius: 10px;
+
+}
+.fiveteen_inp1_copy
+{
+    width:94%;
+    height:45px;
+    border: 1px solid #989898;
+    color: black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.comfortable_text_copy
+{
+    color: black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:14px;
+    font-weight: 450;
+}
+.comfort_div_copy
+{
+    width:94%;
+    height: 55px;
+    border: 1px solid #DFE2DB;
+    border-radius:11px;
+    display: flex;
+    background: #D0DDCA;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.my_max_button-style_copy{
+    width: 48%;
+    height:40px;
+    border: 0px solid black;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #6B6560;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    letter-spacing: 0.7px;
+}
+.my_max_button-style_copy:hover{
+    background:#EBEBEB;
+    transition: 0.5s;
+
+}
+.Max_logov
+{
+    width:23px;
+    height: 23px;
+}
+.my_phone_button-style_copy
+{
+    width: 48%;
+    height: 40px;
+    border: 0px solid black;
+    border-radius: 10px;
+    background: #4A9B3F;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: 500;
+
+    letter-spacing: 0.7px;
+
+}
+.my_phone_button-style:hover
+{
+    background: #3D8034;
+    transition: 0.3s;
+}
+.agree_div_copy
+{
+    width: 90%;
+    height: 45px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    align-items: flex-start;
+    padding-left: 25px;
+}
+.btn_check_copy
+{
+    width: 14px;
+    height: 14px;
+    border: 1px solid #767676;
+    border-radius: 2px;
+    background: white;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_check:hover
+{
+    border: 1px solid #434343;
+
+}
+.btn_check.active
+{
+    color: #4A9B3F;
+}
+.agree_text_copy
+{
+    color:#898A88;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:13.5px;
+    font-weight: 450;
+}
+.privacy_copy
+{
+    color:#424241;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:13.5px;
+    font-weight: 650;
+}
+.i_dont_robot_copy
+{
+    width: 90%;
+    height: 135px;
+    border: 0px solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.robot_copy
+{
+    width: 90%;
+    height: 90%;
+    border: 1px solid #B8B8B8;
+    border-radius:10px;
+    display: flex;
+    align-items: flex-end;
+    background: white;
+    cursor: pointer;
+
+}
+.hrf_robot_copy
+{
+    color: #656565;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:13.5px;
+    font-weight: 450;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+.hrf_robotv:hover
+{
+    color: black;
+    transition: 0.3s;
+}
+.robot1_copy
+{
+    width: 15%;
+    height:100%;
+    border: 0px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.robot_btn_copy
+{
+    width: 30px;
+    height: 30px;
+    border: 2px solid #B7B7B7;
+    border-radius: 4px;
+    background:white;
+}
+.robot2_copy
+{
+    width: 80%;
+    height:100%;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 10px;
+}
+.click_for_continue_copy
+
+{
+    color: black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:14.5px;
+}
+.iam_not_robot_copy
+{
+    color: black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:19px;
+    font-weight: 650;
+}
+.robot3_copy
+{
+    width: 5%;
+    height:20%;
+    border: 0px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn_take_div_copy
+{
+    width: 90%;
+    height: 70px;
+    border: 0px solid black;
+    padding-left: 25px;
+}
+.take_counting_copy
+{
+    width: 94%;
+    height: 50px;
+    border: 2px solid #48973D;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 16.5px;
+    color: white;
+    background-color: #48973D;
+    font-family: 'Monospaced', sans-serif;
+    transition: 0.3s;
+    letter-spacing: 0.3px;
+}
+.take_counting_copy:hover {
+    background: #3E8435;
+    box-shadow: 0 4px 15px rgba(46, 139, 67, 0.4);
+    border: 2px solid #3E8435;
+    margin-top: -2px;
+    transition: 0.3s;
+}
+.fiveteen_last_div_copy
+{
+    width: 90%;
+    height: 120px;
+    border: 0px solid black;
+    color: #8E8E8E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left:25px;
+    padding-top: 10px;
+    line-height: 20px;
+
+}
+.my-navbar_project_as
+{
+    color: #8E8E8E;
+    transition: 0.3s;
+
+
+}
+.my-navbar_project_as:hover
+{
+    color: #717171;
+    transition: 0.3s;
+}

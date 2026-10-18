@@ -1,14 +1,19 @@
 import '../css/Home.css';
 import Menue from './Menue';
+import '../css/Menue.css';
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import {Link} from "react-router-dom";
 import Slider1 from "./Slider1";
 import Footer from "./Footer";
-import Dekor from './Dekor';
+import Dekor from "./Dekor";
 import WarmShell from './Warm_shell';
 import Fundament from "./Fundament";
 import Letapply from "./Letapply";
+import allProducts from '../data/project.json';
+import Choose from "./Chooseproect";
+import { useModalStore } from '../useModalStore';
+
 import { PatternFormat } from 'react-number-format';
 function Home(props) {
     const { t } = useTranslation();
@@ -17,13 +22,15 @@ function Home(props) {
     const togglePart = (id) => {
         setOpenId(openId === id ? null : id);
     };
+    const setChoose = useModalStore((state) => state.setChoose);
+
     const questions = [
         { id: 1, title: 'Дерево гниёт — как защищаете от гниения?', text1: 'Понимаем ваше беспокойство —',text2:'это один из главных вопросов при выборе деревянного дома.',text3:'Как делаем:',text4:'Мы снимаем заболонь — мягкий наружный слой древесины, который подвержен гниению. Остаётся ядровая древесина (сердцевина), которая от природы устойчива к биопоражениям благодаря высокому содержанию смол.',text5:'Дополнительная защита: ',text6:'Обрабатываем транспортной пропиткой Неомид 440. При правильном проекте (свесы кровли, высокий цоколь) и грамотном монтаже дом служит 100+ лет.', },
         { id: 2, title: 'Достаточно ли 200 мм толщины стены?', text1: 'Да, для большинства регионов России.',text2:'Массив дерева работает как теплоаккумулятор: накапливает тепло и медленно его отдаёт, сглаживая перепады температур.',text3:'Основные теплопотери в любом доме идут через крышу и окна, а не через стены. Поэтому мы рекомендуем хорошее утепление кровли (250–300 мм).',},
         { id: 3, title:'Сроки строительства?', text1: 'Производство домокомплекта: ',text2:' в среднем ≈ 1 месяц. Благодаря запасам готового лафета, дом быстро поступает в производство.',text3:'Монтаж на участке:',text4:' в среднем ≈ 1 месяц (включая сборку стен, кровлю с утеплением).',text5:'Итого тёплый контур готов примерно за 2 месяца. Сроки зависят от проекта и сезона — финально фиксируются после согласования. ',},
         { id: 4, title:'Почему лафет дороже бруса?', text1: 'Сравнивать нужно стоимость ',text2:' готового дома,',text3:'а не только стен.',text4:' Лафет — это финишная стена. Ему не нужна отделка (гипсокартон, обои, сайдинг) и дополнительное утепление. В итоге цена «под ключ» сопоставима с качественным каркасником или клееным брусом, но вы получаете настоящий массив дерева.',},
     ];
-    const [nine,setNine] = React.useState([
+    const [nine] = React.useState([
         {
             id: 1,
             icon:"fa-solid fa-industry",
@@ -62,7 +69,7 @@ function Home(props) {
         }
     ]);
 
-    const [coment,Setcoment] = React.useState([
+    const [coment] = React.useState([
         {
             id: 1,
             intr:"«Прожили первую зиму — дом держит тепло невероятно. При -30 за окном внутри комфортные +24 без перетопа.»",
@@ -89,106 +96,7 @@ function Home(props) {
 
         },
     ]);
-    const [catalog, setCatalog] = useState([
-        {
-            id: 1,
-            img: "/dugnad.webp",
-            category: "house",
-            area: 130,
-            floors: 1,
-            price: 10700000,
-            name: "catalog.dugnad.name",
-            intro: "catalog.dugnad.intro",
-            tooltip: "catalog.common.tooltip",
-            moredetails: "catalog.common.moredetails",
-            specText: "catalog.spec.bedrooms3",
-            rulerIcon: "fa-solid fa-ruler-horizontal",
-            houseIcon: "fa-solid fa-house",
-            specIcon: "fa-solid fa-bed"
-        },
-        {
-            id: 2,
-            img: "/loen.webp",
-            category: "house",
-            area: 85,
-            floors: 1,
-            price: 6990000,
-            name: "catalog.loen.name",
-            intro: "catalog.loen.intro",
-            tooltip: "catalog.common.tooltip",
-            moredetails: "catalog.common.moredetails",
-            specText: "catalog.spec.bedrooms3",
-            rulerIcon: "fa-solid fa-ruler-horizontal",
-            houseIcon: "fa-solid fa-house",
-            specIcon: "fa-solid fa-bed"
-        },
-        {
-            id: 3,
-            img: "/gausdai.webp",
-            category: "house",
-            area: 147,
-            floors: 1,
-            price: 9752525,
-            name: "catalog.gausdal.name",
-            intro: "catalog.gausdal.intro",
-            tooltip: "catalog.common.tooltip",
-            moredetails: "catalog.common.moredetails",
-            specText: "catalog.spec.bedrooms3",
-            rulerIcon: "fa-solid fa-ruler-horizontal",
-            houseIcon: "fa-solid fa-house",
-            specIcon: "fa-solid fa-bed"
-        },
-        {
-            id: 4,
-            img: "/fitjar.webp",
-            category: "house",
-            area: 84,
-            floors: 1,
-            price: 7815000,
-            name: "catalog.fitjar.name",
-            intro: "catalog.fitjar.intro",
-            tooltip: "catalog.common.tooltip",
-            moredetails: "catalog.common.moredetails",
-            specText: "catalog.spec.bedroom1",
-            rulerIcon: "fa-solid fa-ruler-horizontal",
-            houseIcon: "fa-solid fa-house",
-            specIcon: "fa-solid fa-bed"
-        },
-        {
-            id: 5,
-            img: "/surnadal.webp",
-            category: "bath",
-            area: 90,
-            floors: 1,
-            price: 7870000,
-            name: "catalog.surnadal.name",
-            intro: "catalog.surnadal.intro",
-            tooltip: "catalog.common.tooltip",
-            moredetails: "catalog.common.moredetails",
-            specText: "catalog.spec.banya",
-            rulerIcon: "fa-solid fa-ruler-horizontal",
-            houseIcon: "fa-solid fa-house",
-            specIcon: "fa-solid fa-bath"
-        },
-        {
-            id: 6,
-            img: "/granvin.webp",
-            category: "house",
-            area: 140,
-            floors: 1,
-            price: 10600000,
-            name: "catalog.granvin.name",
-            intro: "catalog.granvin.intro",
-            tooltip: "catalog.common.tooltip",
-            moredetails: "catalog.common.moredetails",
-            specText: "catalog.spec.bedrooms3",
-            rulerIcon: "fa-solid fa-ruler-horizontal",
-            houseIcon: "fa-solid fa-house",
-            specIcon: "fa-solid fa-bed"
-        }
-    ]);
-
-    const [portfolio, setPortfolio] = useState([
+    const [portfolio] = useState([
         {
             id: 1,
             img: "/portfolio1.webp",
@@ -226,11 +134,66 @@ function Home(props) {
 
 
              ]);
+    const [call, setCall] = React.useState(false);
+
     return (
         <div>
+
+            <Choose/>
+
+            {call && (
+            <div className={"conect_with_our_workers_div"} onClick={() => setCall(false)}>
+                <div className={"conect_with_our_workers_inner_div"}>
+                    <div className={"inner_connect_1"}>
+                        <span>Свяжитесь с нами</span>
+                        <div className={"inner_connect_1_x_mark_div"}>
+                            <i className="fa-solid fa-xmark" onClick={() => setCall(false)}></i>
+                        </div>
+                    </div>
+                    <div className={"inner_connect_2"}>
+                        <i className="fa-solid fa-phone-volume"></i>
+                        <a  href="tel:88005509088" className={"fa-phone-volume_number"}>8 800 550-90-88</a>
+                    </div>
+                    <div className={"inner_connect_3"}>
+
+                        <a
+                            href="https://max.ru/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="my_max_button-style_home"
+                            >
+                            <img className={"maxlogo_inner"} src="MAXlogo.webp" alt=""/>
+                            <span className={"Max"}>Max</span>
+                        </a>
+                        <a
+                            href="https://vk.ru/woodhouse_ltd"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="my_vk_button-style_home">
+                            <i className="fa-brands fa-vk"></i>
+                            <span className={"Max"}>VK</span>
+
+                        </a>
+                    </div>
+                    <Link style={{"textDecoration":"none"}} to="/Contacts" >
+                    <div className={"inner_connect_4"}>
+                        <i className="fa-solid fa-phone red_phone"></i>
+                        <span >Запросить звонок</span>
+                    </div>
+                    </Link>
+
+                </div>
+            </div>
+                )}
             <div className={"home_first_part"}>
-            <div className={"private_producing_div"}>
+                <div className={"write_me_home_div"} onClick={() => setCall(true)}>
+                    <div className={"write_uss"}>Написать нам</div>
+                <div className={"write_me_home"}>
+                    <i className="fa-regular fa-message"></i>
+                </div>
+                </div>
                 <Menue/>
+                <div className={"private_producing_div"}>
                 <div className={"private_producing"}>
                     <i className="fa-solid fa-industry"></i>
                     СОБСТВЕННОЕ ПРОИЗВОДСТВО
@@ -252,7 +215,7 @@ function Home(props) {
 
                 <div className={"btn_div"}>
                     <div className={"choose_project"}>
-                        <span className={"choose"}>Подобрать проект</span>
+                        <span className={"choose"}  onClick={() => setChoose(true)} >Подобрать проект</span>
                         <i className="fa-solid fa-arrow-right"></i>
                     </div>
                     <div className={"calculate_price"}>
@@ -274,7 +237,7 @@ function Home(props) {
                         <span>Собственное производство</span>
                     </div>
                     <div className={"bottom_div4"}>
-                        <i className="fa-solid fa-shield"></i>
+                        <i className="fa-solid fa-shield fa-shieldd"></i>
                         <span>Гарантия 20 лет</span>
 
                     </div>
@@ -332,82 +295,90 @@ function Home(props) {
                    </div>
 
                </div>
-               <div className={"about_company_part2"}>
-                   <span className={"catalog_proects"}>Каталог проектов</span>
-                   <span className={"choose_proects_house"}>Выберите проект дома или бани из лафета</span>
-                   <span className={"catalog_from_100"}>Каталог из 100+ проектов. Можно взять готовый проект или <br/> адаптировать под вашу задачу.</span>
+               <div className={"about_company_part22"}>
+                   <span className={"catalog_proects2"}>Каталог проектов</span>
+                   <span className={"choose_proects_house2"}>Выберите проект дома или бани из лафета</span>
+                   <span className={"catalog_from_1002"}>Каталог из 100+ проектов. Можно взять готовый проект или <br/> адаптировать под вашу задачу.</span>
 
                </div>
            </div>
             <div className={"home_third_part"}>
-                {catalog.map((house) => (
-                    /* Не забываем добавить уникальный key={house.id} для React */
-                    <div key={house.id} className={"products"}>
+                {allProducts.slice(0, 6).map((house) => {
+                    // Динамически создаем правильные пути к ключам в ru.json / am.json / en.json
+                    const nameKey = `catalog.projects.${house.id}.name`;
+                    const introKey = `catalog.projects.${house.id}.intro`;
 
-                        <div className={"product_image_div"}>
-                            {/* В alt тоже передаем перевод названия */}
-                            <img className={"house_img"} src={house.img} alt={t(house.name)} />
-                        </div>
+                    return (
+                        <div key={house.id} className={"products"}>
 
-                        <div className={"names_div"}>
-                            {/* Заменили house.productName на перевод по ключу */}
-                            <span className={"house_name"}>{t(house.name)}</span>
-                        </div>
-
-                        <div className={"intr_div"}>
-                            {/* Заменили house.introduction на перевод по ключу */}
-                            <span className={"house_intr"}>{t(house.intro)}</span>
-                        </div>
-
-                        <div className={"inform_div"}>
-                            <div className={"square_metr"}>
-                                <i className={house.rulerIcon}></i>
-                                <span className={"area"}>{house.area}</span>
-                                {/* Переводим единицу измерения площади */}
-                                <span className={"metr_sqrt"}> {t('catalog.common.meters')}</span>
+                            {/* 1. Блок картинки */}
+                            <div className={"product_image_div"}>
+                                <img className={"house_img"} src={house.image} alt={t(nameKey)} />
                             </div>
 
-                            <div className={"floor_qount"}>
-                                <i className={house.houseIcon}></i>
-                                <span className={"floors_count"}>{house.floors}</span>
-                                {/* Переводим слово "этаж" */}
-                                <span className={"floorstext"}> {t('catalog.common.floor')}</span>
+                            {/* 2. Блок названия */}
+                            <div className={"names_div"}>
+                                <span className={"house_name"}>{t(nameKey)}</span>
                             </div>
 
-                            <div className={"rooms_qount"}>
-                                <i className={house.specIcon}></i>
-                                {/* Заменили house.bedrooms на перевод по ключу (3 спальни / Баня) */}
-                                <span className={"bedrooms_count"}>{t(house.specText)}</span>
+                            {/* 3. Блок описания */}
+                            <div className={"intr_div"}>
+                                <span className={"house_intr"}>{t(introKey)}</span>
                             </div>
 
-                        </div>
-                        {/* Блок цены со встроенным всплывающим окном */}
-                        <div className={"price_div"}>
-                            <span className={"price_div_green"}> ~ </span>
-                            <span className={"price_div_green"}> {house.price.toLocaleString('ru-RU')} </span>
-                            <span className={"price_div_green"}> ₽</span>
+                            {/* 4. Блок параметров */}
+                            <div className={"inform_div"}>
+                                <div className={"square_metr"}>
+                                    <i style={{ color: "#9A938D", fontSize: "14px" }} className="fa-solid fa-ruler-combined"></i>
+                                    <span className={"area"}>{house.area}</span>
+                                    <span className={"metr_sqrt"}> {t('catalog.common.meters')}</span>
+                                </div>
 
-                            {/* Белое окошко (tooltip_popup) обязательно вставляем ВНУТРЬ дива exclamation */}
-                            <div className={"exclamation"}>
-                                <i className="fa-solid fa-exclamation"></i>
+                                <div className={"floor_qount"}>
+                                    <i className="fa-solid fa-house"></i>
+                                    <span className={"floors_count"}>{house.floors}</span>
+                                    <span className={"floorstext"}> {t('catalog.common.floor')}</span>
+                                </div>
 
-                                <div className={"tooltip_popup"}>
-                                    {t(house.tooltip)}
+                                <div className={"rooms_qount"}>
+                                    {/* Если категория baths (бани) — ставим иконку человечка в бане, иначе кровать */}
+                                    <i className={house.category === 'baths' ? 'fa-solid fa-hot-tub-person' : 'fa-solid fa-bed'}></i>
+                                    <span className={"bedrooms_count"}>
+              {house.category === 'baths'
+                  ? t('catalog.categories.baths')
+                  : `${house.bedrooms} ${t('catalog.common.bedrooms')}`
+              }
+            </span>
                                 </div>
                             </div>
-                        </div>
 
-                        {/* Блок с кнопкой "Подробнее" (идёт сразу под ценой) */}
-                        <div className={"detail_inform"}>
-                            <div className={"detail_btn"}>
-                                {t(house.moredetails)}
+                            {/* 5. Блок цены */}
+                            <div className={"price_div"}>
+                                <span className={"price_div_green"}> ~ </span>
+                                {/* Красивое разделение тысяч пробелами, если цена вдруг не пришла — выведет 0 */}
+                                <span className={"price_div_green"}> {house.price ? house.price.toLocaleString('ru-RU') : '0'} </span>
+                                <span className={"price_div_green"}> {t('catalog.common.currency')}</span>
+
+                                <div className={"exclamation"}>
+                                    <i className="fa-solid fa-exclamation"></i>
+                                    <div className={"tooltip_popup"}>
+                                        {t('catalog.common.tooltip')}
+                                    </div>
+                                </div>
                             </div>
+
+                            {/* 6. Блок кнопки */}
+                            <div className={"detail_inform"}>
+                                <div className={"detail_btn"}>
+                                    {t('catalog.common.moredetails')}
+                                </div>
+                            </div>
+
                         </div>
+                    );
+                })}
 
-                    </div>
-
-                ))}
-                <div className={"forth_part"}>
+            <div className={"forth_part"}>
                     <div className={"open_catalog_btn"}>
                         {/* Оставляем только чистый Link, без li */}
                         <Link to="/Project" className={"my-navbar_project_a"}>
@@ -415,7 +386,7 @@ function Home(props) {
                         </Link>
                     </div>
 
-                    <div className={"pass_kviz"}>
+                    <div className={"pass_kviz"} onClick={() => setChoose(true)}>
                         Пройти квиз и получить подбор
                     </div>
                 </div>

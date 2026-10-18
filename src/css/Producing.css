@@ -1,0 +1,481 @@
+.Producing_part1{
+    width: 100%;
+    height: auto;
+   border: 0px solid black;
+    background-color:#F9FAF7 ;
+
+}
+.production_div
+{
+    width: 100%;
+    min-height: 160px;
+    border: 0px solid black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    color: #4A9B3F;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.quality_Norvegia
+{
+    width: 100%;
+    min-height: 120px;
+    border: 0px solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 25px;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 55px;
+
+    font-weight: 650;
+}
+.innderdiv_producing
+{
+    width: 100%;
+    min-height:490px;
+    border: 0px solid black;
+    display: flex;
+}
+.innderdiv1_producing
+{
+    width: 50%;
+    height: 490px;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 35px;
+    gap: 25px;
+}
+.producing_grey_text
+{
+    color: #645F5A;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31px;
+    font-family: 'Outfit', 'Inter', sans-serif;
+}
+.innderdiv2_producing
+{
+    width: 50%;
+    height: 490px;
+    border: 0px solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+}
+.producing_video_div{
+    width: 94%;
+    height: 80%;
+    border: 0px solid black;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.Producing_part2{
+    width: 100%;
+    height: auto;
+   display: flex;
+    justify-content: center;
+    border: 0px solid black;
+    gap: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 155px;
+    padding-top: 40px;
+    background-color:#F9FAF7 ;
+}
+.producing_cards
+{
+    width: 24%;
+    min-height:175px;
+    border: 1px solid #DBDBDB;
+    background:white ;
+    border-radius: 15px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.producing_cards_half1
+{
+    width: 100%;
+    min-height:97px;
+    border:0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    color:#4A9B3F;
+    font-size: 50px;
+    font-weight: 600;
+}
+.producing_cards_half2
+{
+    width: 100%;
+    min-height:78px;
+    border:0px solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    color:#6B6560;
+    font-size: 17px;
+    padding-left:20px ;
+    padding-right: 20px;
+    font-weight: 450;
+    text-align: center;
+}
+.producing_cards:hover
+{
+    box-shadow: 2px 2px 5px #6B6560;
+    transition: 0.3s;
+}
+.Producing_part3
+{
+    width: 100%;
+    height: auto;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.Producing_part3_div1
+{
+    width: 100%;
+    min-height:140px;
+    border: 0px solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 25px;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    color: black;
+    letter-spacing: 0.5px;
+    font-size: 45px;
+    font-weight: 650;
+    padding-right: 400px;
+}
+.Producing_part3_div2
+{
+    width: 100%;
+    min-height:490px;
+    border: 0px solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 25px;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 400px;
+}
+.Producing_part3_div3
+{
+    width: 100%;
+    min-height: 120px;
+    border: 0px solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 25px;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 55px;
+
+    font-weight: 650;
+}
+.produc_part4
+{
+    width: 100%;
+    height: auto;
+    border: 0px solid black;
+    background-color:#F0F3EC;
+    display: flex;
+    padding-bottom: 110px;
+    padding-top: 120px;
+}
+.produc_part4_half1
+{
+    width: 50%;
+    height:830px;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.warm-seam_img_produc
+{
+    width: 95%;
+    height:830px;
+    border: 0px solid black;
+    border-radius: 25px;
+}
+.produc_part4_half2
+{
+    width: 50%;
+    min-height:830px;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 25px;
+    padding-top: 25px;
+    gap: 30px;
+
+}
+.part4_half2_div1_produc
+{
+    width: 98%;
+    min-height: 500px;
+    border: 1px solid #EDEDED;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+
+
+}
+.part4_half2_div1_produc:hover {
+    box-shadow:
+            0 15px 35px rgba(0, 0, 0, 0.12),  /* Первый слой: объёмный, мягкий (12% плотности) */
+            0 5px 15px rgba(0, 0, 0, 0.06);
+    transition: 0.3s ease-in-out;
+}
+.number_one_div_produc
+{
+    width: 100%;
+    min-height: 100px;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 25px;
+    font-family: "Arial Black";
+    font-size: 73.5px;
+    font-weight: 750;
+    color: #DAEAD8;
+}
+.Norjevskih_200_produc
+{
+    width: 100%;
+    min-height: 90px;
+    border: 0px solid black;
+    color: black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:45.5px;
+    font-weight:750;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
+    padding-right:45px;
+
+    align-items: flex-start;
+}
+.Norjevskih_200_produc5
+{
+    width: 100%;
+    min-height: 70px;
+    border: 0px solid black;
+    color: black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:40px;
+    font-weight:750;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
+
+    align-items: flex-start;
+}
+.Lafet_it_is_produc{
+    width: 100%;
+    min-height: 50px;
+    border: 0px solid black;
+    color: #6B6560;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    letter-spacing: 0.3px;
+    display: flex;
+    padding-right: 23px;
+    justify-content: flex-end;
+    padding-left: 25px;
+    padding-top: 15px;
+    align-items: flex-start;
+    line-height: 25px;
+}
+.lastdiv_produc4
+{
+    width: 100%;
+    min-height: 160px;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.politerm_div_produc
+{
+    width: 44%;
+    min-height: 60%;
+    border: 0px solid black;
+    border-radius: 10px;
+    background-color:#F9FAF7;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 15px;
+    padding-top: 15px;
+    gap:5px;
+    flex-direction: column;
+    padding-right: 10px;
+}
+.part4_half2_div2_produc
+{
+    width: 98%;
+    min-height: 200px;
+    border: 1px solid #EDEDED;
+    border-radius: 25px;
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    background: white;
+
+
+}
+.part4_half2_div2_produc:hover {
+    box-shadow:
+            0 15px 35px rgba(0, 0, 0, 0.12),  /* Первый слой: объёмный, мягкий (12% плотности) */
+            0 5px 15px rgba(0, 0, 0, 0.06);
+    transition: 0.3s ease-in-out;
+}
+.grey_produc{
+    width: 100%;
+    min-height: 20px;
+    border: 0px solid black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    color: #67615D;
+    padding-right: 75px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.green_produc
+{
+    color: black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 650;
+}
+.grey_produc
+{
+    color: #6B6560;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 14.5px;
+    font-weight: 450;
+    line-height: 22px;
+}
+.Norjevskih_2001_produc
+{
+    width: 100%;
+    min-height:40px;
+    border: 0px solid black;
+    color: black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:45.5px;
+    font-weight:750;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
+    padding-right:45px;
+
+    align-items: flex-start;
+}
+.Norjevskih_2001_produc5
+{
+    width: 100%;
+    min-height:40px;
+    border: 0px solid black;
+    color: black;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size:38px;
+    font-weight:750;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
+    padding-right:45px;
+
+    align-items: flex-start;
+}
+
+.checked_div_produc
+{
+    width: 100%;
+    min-height: 165px;
+    border: 0px solid black;
+    padding-left:25px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 15px;
+}
+.check_produc
+{
+    color: #4A9B3F;
+}
+.produc_text
+{
+    color: #6B6560;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    letter-spacing: 0.3px;
+}
+.produc_span
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.produc_part5
+{
+    width: 100%;
+    height: auto;
+    border: 0px solid black;
+    background-color:#F9FAF7;
+    display: flex;
+    padding-bottom: 110px;
+    padding-top: 120px;
+}
+.passport_link{
+    color: #49983E;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    transition: 0.3s ease-in-out;
+    margin-left: 5px;
+
+}
+.passport_link:hover{
+    color:green;
+    transition: 0.3s ease-in-out;
+}

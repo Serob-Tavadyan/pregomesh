@@ -2,8 +2,12 @@ import React, { useState } from 'react';
 import '../css/Blog.css';
 import Menue1 from "./Menue1";
 import TreshchinyVLafete from "./TreshchinyVlafete";
+import SushkaDrevisini from "./SushkaDrevisini";
+import PochemuStroitelstvoIzLafetaSchitaetsya from "./PochemuStroitelstvoIzLafetaSchitaetsya";
 import Footer from "./Footer";
 import {Link} from "react-router-dom";
+import Choose from "./Chooseproect";
+import { useModalStore } from '../useModalStore';
 function Blog(props) {
     const [menue, setMenue] = useState([
         {
@@ -20,17 +24,23 @@ function Blog(props) {
             date:"11 марта 2026 г.",
             title:"Почему камерная сушка древесины критически важна при производстве лафета (норвежского бруса)",
             description:"Щадящая термодинамическая сушка в несколько этапов",
+            hxum:"/SushkaDrevisini"
+
         },
         {
             id: 3,
             img:"/blog3.webp",
             date:"18 марта 2026 г.",
             title:"Почему строительство из лафета считается одним из самых эффективных",
+            hxum:"/PochemuStroitelstvoIzLafetaSchitaetsya"
+
+
         }
 
     ]);
     return (
         <div>
+            <Choose/>
             <div className={"first_parts"}>
                 <Menue1/>
                 <div className={"first_parts1"}>

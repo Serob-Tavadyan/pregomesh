@@ -105,8 +105,10 @@
 
 .user:hover
 {
-    color: #4A9B3F;
-    border: 1.4px solid #4A9B3F;
+    color: #C4C5C4;
+    border: 1.4px solid #C4C5C4;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(4px);
 }
 .fa-user
 {
@@ -130,8 +132,6 @@
     text-decoration: none; /* Убирает подчеркивание, так как это тег <a> */
     transition: color 0.3s ease;
 }
-
-/* --- КНОПКА ЗАКАЗА --- */
 .chosse_proect_div
 {
     min-width: 15.4%;
@@ -154,12 +154,14 @@
     color: white;
     font-size: 15.5px;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
     transition: all 0.2s ease-in-out; /* Перенесли из hover сюда для плавного возврата */
 }
 .chosse_proect:hover
 {
     background-color: #428B39;
-    transform: translateY(-2px); /* Вместо margin-top лучше использовать transform для плавной анимации */
+    margin-top: -2px;
+    transition: 0.3s ease-in-out;
 }
 
 .header.header_active
@@ -182,4 +184,9 @@
 .my-navbar_a_active
 {
     color: #6B6560;
+}
+.user_active:hover
+{
+    color: #4A9B3F;
+    border: 1.4px solid #4A9B3F;
 }

@@ -3,7 +3,8 @@ import '../css/Menue1.css';
 import '../css/Home.css';
 import Menue1 from './Menue1';
 import Letapply from "./Letapply";
-
+import Choose from "./Chooseproect";
+import { useModalStore } from '../useModalStore';
 import React, { useState} from 'react';
 import Menue from "./Menue";
 import Footer from "./Footer";
@@ -27,6 +28,7 @@ const [contacts, setContacts] = useState([
 ]);
     return (
         <div>
+            <Choose/>
             <div className={"about_company_part2"}>
                 <Menue1/>
 
